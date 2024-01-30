@@ -1,10 +1,71 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.ant-card{
+  background: #ffffff00 !important;
+  border: none !important;
+  margin: 10px 0px;
+  border-radius: 30px;
+}
+
+.ant-card-body, .ant-card-cover{
+  padding: 10px !important;
+}
+
+#root{
+  display: grid;
+}
+
+.filler{
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bolder !important;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+.carousel-root{
+  width: 95vw;
+  justify-self: center;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+.carousel:nth-child(2){
+  display: none;
+}
+.carousel{
+  border-radius: 35px;
+}
+
+.drawer_links_holder > div{
+  background:  rgb(128, 128, 128, 0.1);
+  padding: 5px;
+  margin: 2px 0px;
+  border-radius: 10px;
+}
+
+.childholder a{
+  width: 100%;
+  text-align: center;
+  border-left: 1px solid grey;
+  padding: 3px;
+}
+
+.rfm-child{
+  padding: 0px 10px
 }
 
 code {
