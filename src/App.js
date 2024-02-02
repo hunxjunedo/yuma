@@ -16,7 +16,7 @@ function App() {
     mains: {
       themeColor: 'purple',
       name: 'Binshafi Sports',
-      bg: 'rgb(260, 260, 260, 0.9)',
+      bg: 'rgba(255,255,255,.5)',
       logo: 'https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447'
     },
     header: {

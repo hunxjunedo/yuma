@@ -7,17 +7,11 @@ export default function Header({ config, children, changer, isMobile, opener }) 
 
     return (
 
-        <div style={{ height: `${isMobile ? 10 : 20}vh`, width: '100vw', position: 'sticky', top: 0, backdropFilter: 'blur(15px)', zIndex: '100', background: config.bg, display: 'grid', boxShadow: "-5px 10px 103px -30px rgba(0,0,0,0.49)", gridTemplateRows: `repeat(${isMobile ? 1 : 2}, 1fr)` }}>
-            <div style={{ display: 'grid', gridAutoFlow: 'column', padding: 20, alignItems: 'center' }}>
-                <img style={{ maxWidth: `${isMobile ? 40 : 20}vw` }} src={config.logo}></img>
-                <div style={{ justifySelf: 'end', display: 'grid', gridAutoFlow: 'column' }}>
-                    {isMobile ? (<MenuIcon onClick={() => (opener(true))} style={{ margin: 5, cursor: 'pointer' }} color={config.themeColor} />)
-                        : ('')}
-                    <ShoppingBasket style={{ margin: 5, cursor: 'pointer' }} color={config.themeColor} />
-                    <User style={{ margin: 5, cursor: 'pointer' }} color={config.themeColor} />
-                </div>
-            </div>
-            {
+        <div style={{ height: `${isMobile ? 10 : 10}vh`, width: '99vw', position: 'sticky', top: 0, backdropFilter: 'saturate(180%) blur(20px)', zIndex: '100', background: config.bg, display: 'grid', boxShadow: "-5px 10px 103px -30px rgba(0,0,0,0.49)" }}>
+            <div style={{ display: 'grid', gridAutoFlow: 'column', padding: '0 10px', alignItems: 'center' }}>
+                <img style={{ maxHeight: `${isMobile ? 2.5 : 4}vh` }} src={config.logo}></img>
+                <div style={{fontSize: 12}}>
+                {
                 isMobile ? ('') :
                     (
                         <div style={{ display: 'grid', justifyItems: 'center', gridAutoFlow: 'column' }}>
@@ -30,6 +24,16 @@ export default function Header({ config, children, changer, isMobile, opener }) 
                         </div>
                     )
             }
+                </div>
+
+                <div style={{ justifySelf: 'end', display: 'grid', gridAutoFlow: 'column' }}>
+                    {isMobile ? (<MenuIcon onClick={() => (opener(true))} style={{ margin: 5, cursor: 'pointer' }} color={config.themeColor} />)
+                        : ('')}
+                    <ShoppingBasket style={{ margin: 5, cursor: 'pointer' }} color={config.themeColor} />
+                    <User style={{ margin: 5, cursor: 'pointer' }} color={config.themeColor} />
+                </div>
+            </div>
+           
 
 
         </div>
