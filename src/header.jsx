@@ -11,23 +11,24 @@ export default function Header({ config, children, changer, isMobile, opener }) 
             <div style={{ display: 'grid', gridAutoFlow: 'column', padding: 20, alignItems: 'center' }}>
                 <img style={{ maxWidth: `${isMobile ? 40 : 20}vw` }} src={config.logo}></img>
                 <div style={{ justifySelf: 'end', display: 'grid', gridAutoFlow: 'column' }}>
-                    <MenuIcon onClick={()=>(opener(true))} style={{ margin: 5, cursor: 'pointer' }} color={config.themeColor} />
+                    {isMobile ? (<MenuIcon onClick={() => (opener(true))} style={{ margin: 5, cursor: 'pointer' }} color={config.themeColor} />)
+                        : ('')}
                     <ShoppingBasket style={{ margin: 5, cursor: 'pointer' }} color={config.themeColor} />
                     <User style={{ margin: 5, cursor: 'pointer' }} color={config.themeColor} />
                 </div>
             </div>
             {
-                isMobile ? ('') : 
-                (
-                    <div style={{ display: 'grid', justifyItems: 'center', gridAutoFlow: 'column' }}>
-                    {
-                        alltitles.map((onetitle, index) => (
-                            <a onMouseEnter={()=>(changer(index))} href={onetitle.link} style={{ display: 'grid', color: config.themeColor, width: 'fit-content', cursor: 'pointer', gridAutoFlow: 'column', 'alignItems': 'center', textTransform: 'uppercase' }}>{onetitle.title} {onetitle.haschildren ? <ChevronDown /> : ''}</a>
-    
-                        ))
-                    }
-                </div>
-                )
+                isMobile ? ('') :
+                    (
+                        <div style={{ display: 'grid', justifyItems: 'center', gridAutoFlow: 'column' }}>
+                            {
+                                alltitles.map((onetitle, index) => (
+                                    <a onMouseEnter={() => (changer(index))} href={onetitle.link} style={{ display: 'grid', color: config.themeColor, width: 'fit-content', cursor: 'pointer', gridAutoFlow: 'column', 'alignItems': 'center', textTransform: 'uppercase' }}>{onetitle.title} {onetitle.haschildren ? <ChevronDown /> : ''}</a>
+
+                                ))
+                            }
+                        </div>
+                    )
             }
 
 

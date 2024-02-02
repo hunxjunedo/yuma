@@ -1,0 +1,10 @@
+{
+    "gradients" : [
+        "linear-gradient(to right, #373b44, #4286f4)",
+        "linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99)",
+        "linear-gradient(to right, #1f4037, #99f2c8)",
+        "linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4)",
+        "linear-gradient(to right, #659999, #f4791f)",
+        "linear-gradient(to right, #dd3e54, #6be585)"
+    ]
+}

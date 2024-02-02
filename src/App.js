@@ -5,6 +5,7 @@ import { Avatar, Col, Collapse, ConfigProvider, Drawer, List } from 'antd';
 import { useState } from 'react';
 import Banner from './banner';
 import Section from './section';
+
 import Reviews from './Reviews';
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
       emulateTouch: true
     },
     reviews: {
+      show: true,
       allReviews: [
        {
         text: 'very nice',
@@ -62,7 +64,30 @@ function App() {
        {
         text: 'very nice',
         rate: 3.5
-       }
+       },
+       {
+        text: 'very nice',
+        rate: 3.5
+       },
+       {
+        text: 'very nice',
+        rate: 3.5
+       },
+       {
+        text: 'very nice',
+        rate: 3.5
+       },
+       {
+        text: 'very nice',
+        rate: 3.5
+       },{
+        text: 'very nice',
+        rate: 3.5
+       },
+       {
+        text: 'very nice',
+        rate: 3.5
+       },
       ]
     }
   }
@@ -85,10 +110,11 @@ function App() {
 
   ]
   const parsedItems = config.header.children.map(onecategory => {
-    return {label: onecategory.title, children: <div className='drawer_links_holder' style={{display: 'grid', gridAutoFlow: 'row'}}>{onecategory.children.map(child=>(<div onClick={()=>(window.location.href = child.link)} >{child.name}</div>))}</div>}
+    return {label: onecategory.title, children: <div className='drawer_links_holder' style={{display: 'grid', gridAutoFlow: 'row'}}>{onecategory.children.map(child=>(<div style={{cursor: 'pointer'}} onClick={()=>(window.location.href = child.link)} >{child.name}</div>))}</div>}
   })
   return (
     <>
+    <script src='observer.js' defer></script>
       <ConfigProvider
         theme={
           {
@@ -140,10 +166,10 @@ function App() {
         {/* //this is the banner */}
         <Banner config={config.banner} isMobile={isMobile} />
         {/* //sections */}
-        <Section title='Top Categories' color={config.mains.themeColor} children={testchildren} background='cyan' isMobile={isMobile} />
+        <Section title='Top Categories' color={config.mains.themeColor} children={testchildren} isMobile={isMobile} />
         {/* //reviews */}
-        <Reviews crsconfig={config.banner} config={config.reviews} />
-        <Section title='Top Categories' color={config.mains.themeColor} children={testchildren} background='pink' isMobile={isMobile} />
+      {config.reviews && config.reviews.show ? <Section title='Testimonials' type='review' isMobile={isMobile} children={config.reviews.allReviews} /> : ''}
+        <Section title='Top Categories' color={config.mains.themeColor} children={testchildren} isMobile={isMobile} />
       </ConfigProvider>
 
     </>
