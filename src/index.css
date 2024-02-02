@@ -19,6 +19,11 @@ body {
   padding: 10px !important;
 }
 
+.react-photo-album--photo:hover{
+transform: scale(1.5);
+transition: 0.5s;
+}
+
 #root{
   display: grid;
   overflow: clip;

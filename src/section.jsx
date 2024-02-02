@@ -7,14 +7,19 @@ import gradients from './grads.json'
 import { useInView } from "react-intersection-observer";
 const gradient = () => {
     let length = gradients.gradients.length - 1
-let randomINDEX = Math.floor(Math.random() * (length - 0 + 1)) + 0;
-return gradients.gradients[randomINDEX]
+    let randomINDEX = Math.floor(Math.random() * (length - 0 + 1)) + 0;
+    return gradients.gradients[randomINDEX]
 }
 
 
 export default function Section({ children, title, background, isMobile, color, type }) {
     //dvidie teh children
-    let divisionCONSTANT = isMobile ? 3 : 5
+    let divisionCONSTANTS = {
+        'review': { mobile: 1, desktop: 5 },
+        'other': { mobile: 3, desktop: 5 }
+    }
+    console.log(divisionCONSTANTS[type || 'other'][isMobile ? 'mobile' : 'desktop'])
+    let divisionCONSTANT = divisionCONSTANTS[type || 'other'][isMobile ? 'mobile' : 'desktop']
     let childgroups = []
     children.forEach((child, index) => {
         let groupindex = Math.floor(index / divisionCONSTANT)
@@ -31,24 +36,24 @@ export default function Section({ children, title, background, isMobile, color, 
         /* Optional options */
         threshold: 1,
         triggerOnce: false
-      });
+    });
     return (
         <>
             <Heading ref={ref} text={title} />
-            <p ref={ref} style={{margin: 0}}></p>
-            <Carousel  style={{ background: background || gradient() }} emulateTouch autoPlay={false} showIndicators={false} showThumbs={false} showStatus={false}>
-            
+            <p ref={ref} style={{ margin: 0 }}></p>
+            <Carousel style={{ background: background || gradient() }} emulateTouch autoPlay={false} showIndicators={false} showThumbs={false} showStatus={false}>
+
                 {
 
                     childgroups.map((group, mainindex) => (
-                        <div  style={{ display: 'grid', justifyItems: 'center', transform: inView ? 'translate(0, 0px)' : 'translate(0, -20px)', opacity: inView ? 1 : 0, transition: '1.5s', background: type == 'review' ? '' : background || gradient(), gridAutoFlow: 'column', color: color }}>
+                        <div style={{ display: 'grid', justifyItems: 'center', transform: inView ? 'translate(0, 0px)' : 'translate(0, -20px)',  opacity: inView ? 1 : 0, transition: '1.5s', background: background || gradient(), gridAutoFlow: 'column', color: color }}>
                             {
                                 group.map(({ title, link, picture, text, rate, reviewer }, index) => (
 
                                     type == 'review' ? (
-                                        <div style={{ display: 'grid',  margin: '20px 0px', gridAutoFlow: 'row', minHeight: '20vh', width: window.innerWidth / divisionCONSTANT - 50, height: window.innerWidth / divisionCONSTANT - 10,  borderRadius: 50, background: gradient(index) }}>
-                                            <p style={{color: 'white'}}>
-                                            {text}
+                                        <div style={{ display: 'grid', margin: '20px 0px',  gridAutoFlow: 'row', maxHeight: '20vh', width: (window.innerWidth / divisionCONSTANT) * 0.6, height: window.innerWidth / divisionCONSTANT - 10, borderRadius: 50, background: gradient(index) }}>
+                                            <p style={{ color: 'white' }}>
+                                                {text}
                                             </p>
                                             <Rating
                                                 readonly={true}
