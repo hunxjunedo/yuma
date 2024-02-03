@@ -4,9 +4,10 @@ export default function Heading({ text }) {
     const { ref, inView, entry } = useInView({
         /* Optional options */
         threshold: 0.001,
-        triggerOnce: false
+        triggerOnce: true
       });
 
+    
    
     return (
 
