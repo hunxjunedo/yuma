@@ -68,7 +68,7 @@ export default function Section({ children, title, background, isMobile, color, 
                                             onClick={() => { window.location.href = link }}
                                             style={{ width: `${100 / divisionCONSTANT - 1}vw` }}
                                             hoverable
-                                            cover={<img style={{ maxWidth: `${100 / divisionCONSTANT - 2}vw` }} src={picture} />}
+                                            cover={<img style={{ maxWidth: `${100 / divisionCONSTANT - 2}vw`, borderRadius: 30 }} src={picture} />}
                                         >
                                             <Meta title={title} />
                                         </Card>
