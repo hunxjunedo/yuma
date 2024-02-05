@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,6 +8,10 @@ body {
   overflow-x: clip;
 }
 
+*{
+  font-family: 'SF Compact Text Bold' !important;
+
+}
 .ant-card{
   background: #ffffff00 !important;
   border: none !important;
@@ -28,6 +32,35 @@ transition: 0.5s;
   display: grid;
   overflow: clip;
   width: 100vw;
+}
+
+.ant-drawer-content-wrapper{
+  backdrop-filter: blur(25px);
+}
+
+.foot_links a{
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-family: 'SF Compact Text Regular' !important;
+}
+
+.credit{
+  font-weight: 900;
+  color: yellow
+}
+
+.credit:hover{
+  color: orange
+}
+
+@font-face {
+  font-family: 'SF Compact Text Bold';
+  src: url('../public/SFPRODISPLAYBOLD.OTF');
+}
+
+@font-face {
+  font-family: 'SF Compact Text Regular';
+  src: url('../public/SFPRODISPLAYREGULAR.OTF');
 }
 
 .filler{

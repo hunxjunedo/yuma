@@ -12,6 +12,7 @@ import PhotoAlbum from 'react-photo-album';
 import Heading from './Heading';
 import Gallery from './gallery';
 import Search from 'antd/es/input/Search';
+import Footer from './footer';
 
 function App() {
   const isMobile = window.innerWidth <= 450;
@@ -69,6 +70,7 @@ function App() {
       },
       {
         name: 'section', props: {
+          background: 'url(https://images.pexels.com/photos/6044224/pexels-photo-6044224.jpeg?cs=srgb&dl=pexels-skylar-kang-6044224.jpg&fm=jpg&_gl=1*mviqoo*_ga*MTY4ODkyODE0MS4xNzAyMDM2Mzk4*_ga_8JE65Q40S6*MTcwNjg5NTk2MS4xMC4xLjE3MDY4OTU5NjQuMC4wLjA.)',
           title: 'Top Categories', children: [
             { title: 'Swimming Tubes', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726508/Top%20Categories/pvsgm1pq1wjgpznxiw8k.png', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
             { title: 'Swimming Pools', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706713058/Top%20Categories/yeoun6wmrsnuimpkhiek.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
@@ -89,6 +91,7 @@ function App() {
       },
       {
         name: 'section', props: {
+          background: 'url(https://images.pexels.com/photos/6044224/pexels-photo-6044224.jpeg?cs=srgb&dl=pexels-skylar-kang-6044224.jpg&fm=jpg&_gl=1*mviqoo*_ga*MTY4ODkyODE0MS4xNzAyMDM2Mzk4*_ga_8JE65Q40S6*MTcwNjg5NTk2MS4xMC4xLjE3MDY4OTU5NjQuMC4wLjA.)',
           title: 'Best Price', children: [
             { title: 'Under 1000', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/m3ovfeobiycjrsxe0uov.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
             { title: '500', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zwmqnwl20tu40gkmqbf1.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
@@ -192,19 +195,80 @@ function App() {
               height: 213,
               caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
             },
+            {
+              src: "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_b.jpg",
+              width: 240,
+              height: 320,
+              caption: "8H (gratisography.com)",
+            },
+            {
+              src: "https://c3.staticflickr.com/9/8583/28354353794_9f2d08d8c0_b.jpg",
+              width: 320,
+              height: 190,
+              caption: "286H (gratisography.com)",
+            },
+            {
+              src: "https://c7.staticflickr.com/9/8569/28941134686_d57273d933_b.jpg",
+              width: 320,
+              height: 148,
+              caption: "315H (gratisography.com)",
+            },
+            {
+              src: "https://c6.staticflickr.com/9/8342/28897193381_800db6419e_b.jpg",
+              width: 320,
+              height: 213,
+              caption: "201H (gratisography.com)",
+            },
+            {
+              src: "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
+              width: 248,
+              height: 320,
+              caption: "Big Ben (Tom Eversley - isorepublic.com)",
+            },
+            {
+              src: "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_b.jpg",
+              width: 320,
+              height: 113,
+              caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)",
+            },
+            {
+              src: "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
+              width: 313,
+              height: 320,
+              caption: "Wood Glass (Tom Eversley - isorepublic.com)",
+            },
+            {
+              src: "https://c8.staticflickr.com/9/8104/28973555735_ae7c208970_b.jpg",
+              width: 320,
+              height: 213,
+              caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
+            },
           ]
         }
 
+      },
+     {
+        name: 'footer',
+        props: {
+          
+          links: [
+            {title: 'test', children: [{name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}]},
+            {title: 'test', children: [{name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}]},
+            {title: 'test', children: [{name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}]}
+
+          ]
+        }
       }
 
 
 
     ],
     mains: {
-      themeColor: 'purple',
+      themeColor: '#4D93E7',
       name: 'Binshafi Sports',
-      bg: 'rgba(255,255,255,.5)',
+      bg: 'rgba(10,10,10,.8)',
       logo: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706710048/Sliders/uescyyb1ltwpnbbtjcmu.png',
+      secondaryBG: 'rgb(30, 30, 30)',
       searchparser: (value) => ('www.google.com/'+value)
     },
 
@@ -235,7 +299,8 @@ function App() {
     'banner': { Element: Banner, Props: { isMobile } },
     'section': { Element: Section, Props: { color: config.mains.themeColor, isMobile } },
     'review': { Element: Section, Props: { color: config.mains.themeColor, isMobile } },
-    'gallery': { Element: Gallery, Props: { color: config.mains.themeColor, isMobile } }
+    'gallery': { Element: Gallery, Props: { color: config.mains.themeColor, isMobile } },
+    'footer' : {Element: Footer, Props: {color: config.mains.themeColor, isMobile, background: 'url(https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?cs=srgb&dl=pexels-elijah-o%27donnell-3473569.jpg&fm=jpg&h=300&w=1400&fit=crop&_gl=1*p628ww*_ga*MTY4ODkyODE0MS4xNzAyMDM2Mzk4*_ga_8JE65Q40S6*MTcwNzE2MjU5OS4xMi4xLjE3MDcxNjI3MTYuMC4wLjA.)'}}
   }
 
   return (
@@ -247,10 +312,23 @@ function App() {
               headerBg: themeColor,
 
             },
+            Collapse: {
+              contentBg: 'transparent'
+            },
+            Input: {
+              activeBg: config.mains.secondaryBG,
+              hoverBg: config.mains.secondaryBG,
+              colorIcon: themeColor,
+              colorTextPlaceholder: themeColor
+            }
 
           },
           token: {
-            colorText: themeColor
+            colorText: themeColor,
+            colorBgElevated: config.mains.bg,
+            colorBgContainer: config.mains.secondaryBG,
+            colorIcon: themeColor,
+            colorTextTertiary: themeColor
           }
         }
       }>
