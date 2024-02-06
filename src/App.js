@@ -113,12 +113,12 @@ function App() {
         name: 'section', props: {
           background: 'white',
           title: 'Shop by Price', children: [
-            { title: 'Under 1000', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/m3ovfeobiycjrsxe0uov.jpg', link: "http://localhost/bshafi/product-category/under-1000/" },
-            { title: '500', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zwmqnwl20tu40gkmqbf1.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-500/" },
-            { title: '400', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zkuooyay64d3lbjq9q3q.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-400/" },
-            { title: '300', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/hvp1siepy3cgzo3pxrgl.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-300/" },
-            { title: '200', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/kz4fdjdqfmbs134fuchl.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-200/" },
-            { title: '100', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/buwvutbknpvggyodywhf.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-100/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/m3ovfeobiycjrsxe0uov.jpg', link: "http://localhost/bshafi/product-category/under-1000/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zwmqnwl20tu40gkmqbf1.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-500/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zkuooyay64d3lbjq9q3q.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-400/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/hvp1siepy3cgzo3pxrgl.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-300/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/kz4fdjdqfmbs134fuchl.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-200/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/buwvutbknpvggyodywhf.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-100/" },
             
         
           ]
