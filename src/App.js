@@ -52,6 +52,7 @@ function App() {
       },
       {
         name: 'banner', props: {
+          showThumbs: false,
 
           config: {
             images: [
@@ -65,7 +66,8 @@ function App() {
             swipeable: true,
             emulateTouch: true,
             preventMovementUntilSwipeScrollTolerance: true,
-            swipeScrollTolerance: 50
+            swipeScrollTolerance: 50,
+            showArrows: false
           }
 
         }

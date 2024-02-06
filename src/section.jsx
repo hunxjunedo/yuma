@@ -41,7 +41,7 @@ export default function Section({ children, title, headingbg, background, isMobi
         <>
             <Heading ref={ref} background={headingbg || false} text={title} />
             <p ref={ref} style={{ margin: 0 }}></p>
-            <Carousel style={{ background: background || gradient() }} emulateTouch autoPlay={false} showIndicators={true} showThumbs={true} showStatus={true}>
+            <Carousel preventMovementUntilSwipeScrollTolerance={true} swipeScrollTolerance={50} style={{ background: background || gradient() }} emulateTouch showArrows={isMobile ? false : true} autoPlay={false} showIndicators={false} showThumbs={false} showStatus={false}>
 
                 {
 
