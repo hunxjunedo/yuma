@@ -38,6 +38,14 @@ transition: 0.5s;
   backdrop-filter: blur(25px);
 }
 
+.react-photo-album{
+  width: 95vw !important
+}
+
+.control-arrow{
+  background: rgb(40, 40, 40) !important;
+}
+
 .foot_links a{
   font-weight: 100;
   letter-spacing: 3px;

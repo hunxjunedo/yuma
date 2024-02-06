@@ -21,30 +21,30 @@ function App() {
       {
         name: 'stripe', props: {
           config: {
-            background: 'pink',
-            content: ['hello nice people', 'free delivery', 'hello nice people', 'free delivery', 'hello nice people', 'free delivery', 'hello nice people', 'free delivery', 'hello nice people', 'free delivery', 'hello nice people', 'free delivery', 'hello nice people', 'free delivery', 'hello nice people', 'free delivery',]
+            background: '#4D93E7',
+            color: 'white', 
+            content: ['free delivery above order of 3000    ', '   your order will be delivered in 3 - 5 days   ',]
 
           }
         }
       },
       {
         name: 'header', props: {
-          infobg: 'rgb(40, 40,40, 0.9)',
+          infobg: 'rgb(250, 250,250, 0.9)',
+          color: 'black',
           children: [
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }, { name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'cars', image: 'https://khanaan.pk/cdn/shop/files/Untitled_design_4_280x280.png?v=1656655903', link: 'www.google.com', children: [{ name: 'RC', link: 'www.youtube.com' }] },
+            { title: 'Swimming Items', image: 'abcd', link: 'http://localhost/bshafi/product-category/swimming-items/', children: [{name: 'Swimming Goggles', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-goggles/'}, {name: 'Swimming pools', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-pools/'}, {name: 'Swimming tubes', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-tubes/'}] },
+            { title: 'Toys', image: 'abcd', link: 'http://localhost/bshafi/product-category/toys/', children: [{ name: 'Brain Train Games', link: 'http://localhost/bshafi/product-category/toys/brain-training-games/' }, {name: 'Cars', link: 'http://localhost/bshafi/product-category/toys/cars/'}, {name: 'Light and Music Toys', link: 'http://localhost/bshafi/product-category/toys/light-and-music-toys/'}, {name: 'Metal Cars', link: 'http://localhost/bshafi/product-category/toys/metal-cars/'}, {name: 'Tent-Houses', link: 'http://localhost/bshafi/product-category/toys/tent-houses/'}] },
+            { title: 'Watches', image: 'abcd', link: 'http://localhost/bshafi/product-category/watches/', children: [{ name: 'RC', link: 'www.youtube.com' }] },
+            { title: 'Board Games', image: 'abcd', link: 'http://localhost/bshafi/product-category/board-games/', children: [{ name: 'Laminated Board Games', link: 'http://localhost/bshafi/product-category/board-games/laminated-board-games/' }, {name: 'Ludo', link: 'http://localhost/bshafi/product-category/board-games/ludo/'}, {name: 'Wooden Board games', link: 'http://localhost/bshafi/product-category/board-games/wooden-board-game/'}] },
+            { title: 'Sports', image: 'abcd', link: 'http://localhost/bshafi/product-category/sports/', children: [ {name: 'Cricket', link: 'http://localhost/bshafi/product-category/sports/cricket/'}, {name: 'Cricket Bats', link: 'http://localhost/bshafi/product-category/sports/cricket-bats/'}, {name: 'Footballs', link: 'http://localhost/bshafi/product-category/sports/footballs/'}, {name: 'Tennis Balls', link: 'http://localhost/bshafi/product-category/sports/tennis-ball/'}  ] },
+            { title: 'Sports Attire', image: 'abcd', link: 'http://localhost/bshafi/product-category/sports-attire/', children: [{ name: 'Cricket Attire', link: 'http://localhost/bshafi/product-category/sports-attire/cricket-attire/' }, {name: 'Football Attire', link: 'http://localhost/bshafi/product-category/sports-attire/football-attire/'}] },
+            { title: 'Gift Items', image: 'abcd', link: 'http://localhost/bshafi/product-category/gift-items/', children: [{ name: 'Gifts For Him', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-him/' }, {name: 'Gifts For Her', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-her/'}, {name: 'Diaries', link: 'http://localhost/bshafi/product-category/gift-items/diaries/'}] },
+            { title: 'Decoration Items', image: 'abcd', link: 'http://localhost/bshafi/product-category/decoration-items/', children: [{ name: 'Candles', link: 'http://localhost/bshafi/product-category/decoration-items/candles/' }, {name: 'Foil Balloons', link: 'http://localhost/bshafi/product-category/decoration-items/foil-balloons/'}] },
+            { title: 'Mobile Accessories', image: 'abcd', link: 'http://localhost/bshafi/product-category/mobile-acessories/', children: [{name: 'Airpods', link: 'http://localhost/bshafi/product-category/mobile-acessories/air-pods/'}] },
+            { title: 'Stuff Toys', image: 'abcd', link: 'http://localhost/bshafi/product-category/stuff-toys/', children: [{ name: 'Character Stuff Toys', link: 'http://localhost/bshafi/product-category/stuff-toys/character-stuff-toy/' }, {name: 'Teddy Bears', link: 'http://localhost/bshafi/product-category/stuff-toys/teddy-bears/'}] },
+            { title: 'Under 1000', image: 'abcd', link: 'http://localhost/bshafi/product-category/under-1000/', children: [{ name: 'Under 500', link: 'http://localhost/bshafi/product-category/under-1000/under-500/' }, {name: 'Under 400', link: 'http://localhost/bshafi/product-category/under-1000/under-400/'}, {name: 'Under 300', link: 'http://localhost/bshafi/product-category/under-1000/under-300/'}, {name: 'Under 200', link: 'http://localhost/bshafi/product-category/under-1000/under-200/'}, {name: 'Under 100', link: 'http://localhost/bshafi/product-category/under-1000/under-100/'}] },
+            
 
 
           ]
@@ -55,58 +55,164 @@ function App() {
 
           config: {
             images: [
-              { picture: "https://khanaan.pk/cdn/shop/files/Explore_New_Toy_Everyday_c8012c00-e85e-4563-8f53-88757a24832f_1345x315_crop_center.png?v=1670046040", link: "https://khanaan.pk/collections/baby-strollers", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706710632/Sliders/qxzg6xubt5zjbfixqgir.png" },
-              { picture: "https://khanaan.pk/cdn/shop/files/Explore_New_Toy_Everyday_c8012c00-e85e-4563-8f53-88757a24832f_1345x315_crop_center.png?v=1670046040", link: "https://khanaan.pk/collections/baby-strollers", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709639/Sliders/zab3x6ikhacoflmcil8z.png" },
-              { picture: "https://khanaan.pk/cdn/shop/files/Explore_New_Toy_Everyday_c8012c00-e85e-4563-8f53-88757a24832f_1345x315_crop_center.png?v=1670046040", link: "https://khanaan.pk/collections/baby-strollers", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706710853/Sliders/kbqyffvsc4hs3wmmthix.jpg" },
-              {picture: "", link: "", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709620/Sliders/hpgixfd1xvhzvfsifjod.jpg"}
+              { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707226849/Sliders/qzuegbbcxvey32dy8cbi.png", link: "", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706710632/Sliders/qxzg6xubt5zjbfixqgir.png" },
+              { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225206/Sliders/pm5nrxpiuybeterocn3u.png", link: "http://localhost/bshafi/product-category/swimming-items/", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709639/Sliders/zab3x6ikhacoflmcil8z.png" },
+              { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225797/Sliders/hryguz5gue7d0njvnuax.png", link: "http://localhost/bshafi/product-category/sports", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706710853/Sliders/kbqyffvsc4hs3wmmthix.jpg" },
+              {picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707226260/Sliders/jplranrggtjkg5woeq4a.jpg", link: "", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709620/Sliders/hpgixfd1xvhzvfsifjod.jpg"}
             ],
             autoPlay: true,
             infiniteLoop: true,
             swipeable: true,
-            emulateTouch: true
+            emulateTouch: true,
+            preventMovementUntilSwipeScrollTolerance: true,
+            swipeScrollTolerance: 50
           }
 
         }
       },
       {
         name: 'section', props: {
-          background: 'url(https://images.pexels.com/photos/6044224/pexels-photo-6044224.jpeg?cs=srgb&dl=pexels-skylar-kang-6044224.jpg&fm=jpg&_gl=1*mviqoo*_ga*MTY4ODkyODE0MS4xNzAyMDM2Mzk4*_ga_8JE65Q40S6*MTcwNjg5NTk2MS4xMC4xLjE3MDY4OTU5NjQuMC4wLjA.)',
+          background: 'white',
           title: 'Top Categories', children: [
-            { title: 'Swimming Tubes', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726508/Top%20Categories/pvsgm1pq1wjgpznxiw8k.png', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Swimming Pools', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706713058/Top%20Categories/yeoun6wmrsnuimpkhiek.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Cricket Bats', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711702/Top%20Categories/bkr8km0g8qbylcdwanrs.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Watches ', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726510/Top%20Categories/udp70raryi1ezu081r3o.png', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Footballs', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711756/Top%20Categories/wjom7btch7hmkyq3ezsk.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Metal Cars', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711721/Top%20Categories/pjscifs9polexr0mphnp.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Gifts For Her', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726531/Top%20Categories/io3syb8zwgnwnlv0nr7q.png', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Ludo', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711733/Top%20Categories/ulrp4yelpum76vit02rv.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Board Games', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726507/Top%20Categories/slsfgikhlizl1vhhgktk.png', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Gifts For Him', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726528/Top%20Categories/cjl6gofkwmcmi2b09naf.png', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Football kits', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726521/Top%20Categories/umjpvodjomrfkq3sgwnz.png', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Airpods', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711788/Top%20Categories/cptjxfl4c4w4zb2lafv0.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: 'Decoration Items', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711702/Top%20Categories/aap4joglmjyizjzr8pyx.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
+            { title: 'Swimming Tubes', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726508/Top%20Categories/pvsgm1pq1wjgpznxiw8k.png', link: "http://localhost/bshafi/product-category/swimming-items/swimming-tubes/" },
+            { title: 'Swimming Pools', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706713058/Top%20Categories/yeoun6wmrsnuimpkhiek.jpg', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-pools/' },
+            { title: 'Cricket Bats', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711702/Top%20Categories/bkr8km0g8qbylcdwanrs.jpg', link: 'http://localhost/bshafi/product-category/sports/cricket-bats/' },
+            { title: 'Watches ', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726510/Top%20Categories/udp70raryi1ezu081r3o.png', link: "http://localhost/bshafi/product-category/watches/" },
+            { title: 'Footballs', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711756/Top%20Categories/wjom7btch7hmkyq3ezsk.jpg', link: "http://localhost/bshafi/product-category/sports/footballs/" },
+            { title: 'Metal Cars', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711721/Top%20Categories/pjscifs9polexr0mphnp.jpg', link: "http://localhost/bshafi/product-category/toys/metal-cars/" },
+            { title: 'Gifts For Her', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726531/Top%20Categories/io3syb8zwgnwnlv0nr7q.png', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-her/' },
+            { title: 'Ludo', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711733/Top%20Categories/ulrp4yelpum76vit02rv.jpg', link: "http://localhost/bshafi/product-category/board-games/ludo/" },
+            { title: 'Board Games', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726507/Top%20Categories/slsfgikhlizl1vhhgktk.png', link: 'http://localhost/bshafi/product-category/board-games/' },
+            { title: 'Gifts For Him', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726528/Top%20Categories/cjl6gofkwmcmi2b09naf.png', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-him/' },
+            { title: 'Football kits', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726521/Top%20Categories/umjpvodjomrfkq3sgwnz.png', link: 'http://localhost/bshafi/product-category/sports-attire/football-attire/' },
+            { title: 'Airpods', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711788/Top%20Categories/cptjxfl4c4w4zb2lafv0.jpg', link: 'http://localhost/bshafi/product-category/mobile-acessories/air-pods/'},
+            { title: 'Decoration Items', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711702/Top%20Categories/aap4joglmjyizjzr8pyx.jpg', link: 'http://localhost/bshafi/product-category/decoration-items/' },
         
           ]
         }
       },
       {
+        name: 'banner', props: {
+
+          config: {
+            images: [
+              { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225206/Sliders/pm5nrxpiuybeterocn3u.png", link: "http://localhost/bshafi/product-category/swimming-items/", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709639/Sliders/zab3x6ikhacoflmcil8z.png" },
+            
+            ],
+            autoPlay: true,
+            infiniteLoop: true,
+            swipeable: true,
+            emulateTouch: true,
+            preventMovementUntilSwipeScrollTolerance: true,
+            swipeScrollTolerance: 50
+          }
+
+        }
+      },
+      {
         name: 'section', props: {
-          background: 'url(https://images.pexels.com/photos/6044224/pexels-photo-6044224.jpeg?cs=srgb&dl=pexels-skylar-kang-6044224.jpg&fm=jpg&_gl=1*mviqoo*_ga*MTY4ODkyODE0MS4xNzAyMDM2Mzk4*_ga_8JE65Q40S6*MTcwNjg5NTk2MS4xMC4xLjE3MDY4OTU5NjQuMC4wLjA.)',
-          title: 'Best Price', children: [
-            { title: 'Under 1000', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/m3ovfeobiycjrsxe0uov.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: '500', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zwmqnwl20tu40gkmqbf1.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: '400', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zkuooyay64d3lbjq9q3q.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: '300', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/hvp1siepy3cgzo3pxrgl.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: '200', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/kz4fdjdqfmbs134fuchl.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
-            { title: '100', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/buwvutbknpvggyodywhf.jpg', link: "https://khanaan.pk/cdn/shop/files/Untitled_design_488x112.png?v=1656651447" },
+          background: 'white',
+          title: 'Shop by Price', children: [
+            { title: 'Under 1000', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/m3ovfeobiycjrsxe0uov.jpg', link: "http://localhost/bshafi/product-category/under-1000/" },
+            { title: '500', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zwmqnwl20tu40gkmqbf1.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-500/" },
+            { title: '400', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zkuooyay64d3lbjq9q3q.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-400/" },
+            { title: '300', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/hvp1siepy3cgzo3pxrgl.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-300/" },
+            { title: '200', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/kz4fdjdqfmbs134fuchl.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-200/" },
+            { title: '100', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/buwvutbknpvggyodywhf.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-100/" },
             
         
           ]
         }
       },
+   
+      {
+        name: 'gallery',
+        
+
+        props: {
+          title: 'There`s More',
+          background: 'white',
+          photos: [
+            {
+              src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707152950/Gallery/g42rjzzxqy0io3im7yuu.png",
+              link : "http://localhost/bshafi/product-category/board-games/",
+              width: 300,
+              height: 150,
+              
+            },
+            {
+              src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707228251/Gallery/h34psycomzixh1fnf7re.png",
+              width: 100,
+              height: 100,
+              caption: "286H (gratisography.com)",
+              link: 'http://localhost/bshafi/product-category/watches/'
+            },
+            {
+              src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707152950/Gallery/ovpjkimkifjvi55bkhjl.png",
+              width: 200,
+              height: 200,
+              caption: "315H (gratisography.com)",
+              link: 'http://localhost/bshafi/product-category/sports/footballs/'
+            },
+            {
+              src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707230507/Gallery/ukaywjw74uiedzwo8aya.png",
+              width: 120,
+              height: 120,
+              link: 'http://localhost/bshafi/product-category/decoration-items/',
+              caption: "201H (gratisography.com)",
+            },
+            {
+              src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707227999/Gallery/lzarmg6jyjmobox5fyl4.png",
+              width: 90,
+              height: 90,
+              link: 'http://localhost/bshafi/product-category/mobile-acessories/air-pods/',
+              caption: "Big Ben (Tom Eversley - isorepublic.com)",
+            },
+            {
+              src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707231279/Gallery/soq7uach9c9ykjmiln9g.png",
+              width: 150,
+              height: 300,
+              link: 'http://localhost/bshafi/product-category/sports/cricket-bats/',
+              caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)",
+            },
+            {
+              src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707152950/Gallery/rwbux72ktfzhnjkqziuu.png",
+              width: 250,
+              height: 300,
+              link: 'http://localhost/bshafi/product-category/',
+              caption: "Wood Glass (Tom Eversley - isorepublic.com)",
+            },
+            {
+              src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707156342/Gallery/gmtnynacuetgp8ljdt7e.png",
+              width: 150,
+              link: 'http://localhost/bshafi/product-category/toys/metal-cars/',
+              height: 150,
+              caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
+            },
+            {
+              src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707229513/Gallery/l9zowyamkeptj04g1ua7.png",
+              width: 250,
+              link: 'http://localhost/bshafi/product-category/toys/metal-cars/',
+              height: 250,
+              link: 'http://localhost/bshafi/product-category/sports-attire/cricket-attire/',
+              caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
+            },
+            {
+              src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707228886/Gallery/gi5s0jwioy2y41ejmyq5.png",
+              width: 230,
+              link: 'http://localhost/bshafi/product-category/sports-attire/football-attire/',
+              height: 230,
+              caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
+            },
+          
+          ]
+        }
+
+      },
       {
         name: 'review', props: {
-          title: 'Testimonials', type: 'review', background: 'url(https://images.pexels.com/photos/6044224/pexels-photo-6044224.jpeg?cs=srgb&dl=pexels-skylar-kang-6044224.jpg&fm=jpg&_gl=1*mviqoo*_ga*MTY4ODkyODE0MS4xNzAyMDM2Mzk4*_ga_8JE65Q40S6*MTcwNjg5NTk2MS4xMC4xLjE3MDY4OTU5NjQuMC4wLjA.)', children: [
+          headingbg: 'url(https://images.pexels.com/photos/4393860/pexels-photo-4393860.jpeg?cs=srgb&dl=pexels-mathias-reding-4393860.jpg&fm=jpg&h=200&w=200&fit=crop&_gl=1*wrrvu5*_ga*MTY4ODkyODE0MS4xNzAyMDM2Mzk4*_ga_8JE65Q40S6*MTcwNzIyMzY0OC4xNC4xLjE3MDcyMjM3MzguMC4wLjA.)',
+          title: 'Testimonials', type: 'review', background: 'white', children: [
             {
               text: 'very nice',
               rate: 3.5
@@ -141,116 +247,11 @@ function App() {
           ]
         }
       },
-      {
-        name: 'gallery',
-
-        props: {
-          title: 'There`s More',
-          photos: [
-            {
-              src: "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_b.jpg",
-              width: 240,
-              height: 320,
-              caption: "8H (gratisography.com)",
-            },
-            {
-              src: "https://c3.staticflickr.com/9/8583/28354353794_9f2d08d8c0_b.jpg",
-              width: 320,
-              height: 190,
-              caption: "286H (gratisography.com)",
-            },
-            {
-              src: "https://c7.staticflickr.com/9/8569/28941134686_d57273d933_b.jpg",
-              width: 320,
-              height: 148,
-              caption: "315H (gratisography.com)",
-            },
-            {
-              src: "https://c6.staticflickr.com/9/8342/28897193381_800db6419e_b.jpg",
-              width: 320,
-              height: 213,
-              caption: "201H (gratisography.com)",
-            },
-            {
-              src: "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
-              width: 248,
-              height: 320,
-              caption: "Big Ben (Tom Eversley - isorepublic.com)",
-            },
-            {
-              src: "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_b.jpg",
-              width: 320,
-              height: 113,
-              caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)",
-            },
-            {
-              src: "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
-              width: 313,
-              height: 320,
-              caption: "Wood Glass (Tom Eversley - isorepublic.com)",
-            },
-            {
-              src: "https://c8.staticflickr.com/9/8104/28973555735_ae7c208970_b.jpg",
-              width: 320,
-              height: 213,
-              caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
-            },
-            {
-              src: "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_b.jpg",
-              width: 240,
-              height: 320,
-              caption: "8H (gratisography.com)",
-            },
-            {
-              src: "https://c3.staticflickr.com/9/8583/28354353794_9f2d08d8c0_b.jpg",
-              width: 320,
-              height: 190,
-              caption: "286H (gratisography.com)",
-            },
-            {
-              src: "https://c7.staticflickr.com/9/8569/28941134686_d57273d933_b.jpg",
-              width: 320,
-              height: 148,
-              caption: "315H (gratisography.com)",
-            },
-            {
-              src: "https://c6.staticflickr.com/9/8342/28897193381_800db6419e_b.jpg",
-              width: 320,
-              height: 213,
-              caption: "201H (gratisography.com)",
-            },
-            {
-              src: "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
-              width: 248,
-              height: 320,
-              caption: "Big Ben (Tom Eversley - isorepublic.com)",
-            },
-            {
-              src: "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_b.jpg",
-              width: 320,
-              height: 113,
-              caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)",
-            },
-            {
-              src: "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
-              width: 313,
-              height: 320,
-              caption: "Wood Glass (Tom Eversley - isorepublic.com)",
-            },
-            {
-              src: "https://c8.staticflickr.com/9/8104/28973555735_ae7c208970_b.jpg",
-              width: 320,
-              height: 213,
-              caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
-            },
-          ]
-        }
-
-      },
      {
         name: 'footer',
+        
         props: {
-          
+          background: 'rgb(200, 200, 200, 0.8)',
           links: [
             {title: 'test', children: [{name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}]},
             {title: 'test', children: [{name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}]},
@@ -266,8 +267,8 @@ function App() {
     mains: {
       themeColor: '#4D93E7',
       name: 'Binshafi Sports',
-      bg: 'rgba(10,10,10,.8)',
-      logo: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706710048/Sliders/uescyyb1ltwpnbbtjcmu.png',
+      bg: 'rgb(250, 250, 250, 0.5)',
+      logo: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707226997/Sliders/aiwldjs0k2hvlkdvwhau.png',
       secondaryBG: 'rgb(30, 30, 30)',
       searchparser: (value) => ('www.google.com/'+value)
     },
@@ -300,7 +301,7 @@ function App() {
     'section': { Element: Section, Props: { color: config.mains.themeColor, isMobile } },
     'review': { Element: Section, Props: { color: config.mains.themeColor, isMobile } },
     'gallery': { Element: Gallery, Props: { color: config.mains.themeColor, isMobile } },
-    'footer' : {Element: Footer, Props: {color: config.mains.themeColor, isMobile, background: 'url(https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?cs=srgb&dl=pexels-elijah-o%27donnell-3473569.jpg&fm=jpg&h=300&w=1400&fit=crop&_gl=1*p628ww*_ga*MTY4ODkyODE0MS4xNzAyMDM2Mzk4*_ga_8JE65Q40S6*MTcwNzE2MjU5OS4xMi4xLjE3MDcxNjI3MTYuMC4wLjA.)'}}
+    'footer' : {Element: Footer, Props: {color: config.mains.themeColor, isMobile}}
   }
 
   return (
@@ -316,8 +317,8 @@ function App() {
               contentBg: 'transparent'
             },
             Input: {
-              activeBg: config.mains.secondaryBG,
-              hoverBg: config.mains.secondaryBG,
+              activeBg: ' rgb(220, 220, 220, 0.9)',
+              hoverBg: ' rgb(220, 220, 220, 0.9)',
               colorIcon: themeColor,
               colorTextPlaceholder: themeColor
             }
@@ -325,8 +326,8 @@ function App() {
           },
           token: {
             colorText: themeColor,
-            colorBgElevated: config.mains.bg,
-            colorBgContainer: config.mains.secondaryBG,
+            colorBgElevated:' rgb(250, 250, 250, 0.9)',
+            colorBgContainer: ' rgb(220, 220, 220, 0.9)',
             colorIcon: themeColor,
             colorTextTertiary: themeColor
           }

@@ -12,7 +12,7 @@ const gradient = () => {
 }
 
 
-export default function Section({ children, title, background, isMobile, color, type }) {
+export default function Section({ children, title, headingbg, background, isMobile, color, type }) {
     //dvidie teh children
     let divisionCONSTANTS = {
         'review': { mobile: 1, desktop: 5 },
@@ -39,9 +39,9 @@ export default function Section({ children, title, background, isMobile, color, 
     });
     return (
         <>
-            <Heading ref={ref} text={title} />
+            <Heading ref={ref} background={headingbg || false} text={title} />
             <p ref={ref} style={{ margin: 0 }}></p>
-            <Carousel style={{ background: background || gradient() }} emulateTouch autoPlay={false} showIndicators={false} showThumbs={false} showStatus={false}>
+            <Carousel style={{ background: background || gradient() }} emulateTouch autoPlay={false} showIndicators={true} showThumbs={true} showStatus={true}>
 
                 {
 
@@ -51,8 +51,8 @@ export default function Section({ children, title, background, isMobile, color, 
                                 group.map(({ title, link, picture, text, rate, reviewer }, index) => (
 
                                     type == 'review' ? (
-                                        <div style={{ display: 'grid', margin: '20px 0px',  gridAutoFlow: 'row', maxHeight: '20vh', width: (window.innerWidth / divisionCONSTANT) * 0.6, height: window.innerWidth / divisionCONSTANT - 10, borderRadius: 50, background: gradient(index) }}>
-                                            <p style={{ color: 'white' }}>
+                                        <div style={{ display: 'grid', margin: '20px 0px',   gridAutoFlow: 'row', maxHeight: '20vh', width: (window.innerWidth / divisionCONSTANT) * 0.6, height: window.innerWidth / divisionCONSTANT - 10, borderRadius: 50, background: 'rgb(240, 240, 240)' }}>
+                                            <p style={{ color: 'black' }}>
                                                 {text}
                                             </p>
                                             <Rating

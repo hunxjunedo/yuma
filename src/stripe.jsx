@@ -8,7 +8,7 @@ export default function Stripe({config}){
     let finalcontent = Array.isArray(config.content) ? config.content.map(sentence => [sentence, delimiter] ) : config.content
     console.log(finalcontent)
     return(
-        <div style={{height: 30, width: '100vw', display: 'grid',letterSpacing: 1, alignItems: 'center', justifyItems: 'center', background: config.background}}>
+        <div style={{height: 30, width: '100vw', display: 'grid', color: config.color || 'black', letterSpacing: 1, alignItems: 'center', justifyItems: 'center', background: config.background}}>
          {contentLENGTH >= maxCharsToFIt ? <Marquee  pauseOnHover pauseOnClick>{finalcontent}</Marquee> : finalcontent}
         </div>
     )
