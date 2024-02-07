@@ -38,6 +38,30 @@ transition: 0.5s;
   background: #4D93E7 !important;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  background-color: #4D93E7 !important;
+  border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .ant-drawer-content-wrapper{
   backdrop-filter: blur(25px);
 }
