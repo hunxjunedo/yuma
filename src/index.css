@@ -34,6 +34,10 @@ transition: 0.5s;
   width: 100vw;
 }
 
+.dot{
+  background: #4D93E7 !important;
+}
+
 .ant-drawer-content-wrapper{
   backdrop-filter: blur(25px);
 }

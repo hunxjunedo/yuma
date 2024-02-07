@@ -61,7 +61,7 @@ function App() {
               { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225797/Sliders/hryguz5gue7d0njvnuax.png", link: "http://localhost/bshafi/product-category/sports", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706710853/Sliders/kbqyffvsc4hs3wmmthix.jpg" },
               {picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707226260/Sliders/jplranrggtjkg5woeq4a.jpg", link: "", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709620/Sliders/hpgixfd1xvhzvfsifjod.jpg"}
             ],
-            autoPlay: true,
+            autoPlay: false,
             infiniteLoop: true,
             swipeable: true,
             emulateTouch: true,
