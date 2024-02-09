@@ -13,6 +13,10 @@ import Heading from './Heading';
 import Gallery from './gallery';
 import Search from 'antd/es/input/Search';
 import Footer from './footer';
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import bgsvg from './bg.svg'
+import Links from './links';
+import { MessageCircleHeart } from 'lucide-react';
 
 function App() {
   const isMobile = window.innerWidth <= 450;
@@ -250,6 +254,17 @@ function App() {
         }
       },
       {
+        name: 'artlink', props: {
+          background: `url(${bgsvg})`,
+          heading: 'Why Us',
+          items: [
+            {icon: MessageCircleHeart, title: 'Value', para: 'lorem ipsum'},
+            {icon: MessageCircleHeart, title: 'Value', para: 'lorem ipsum'},
+            {icon: MessageCircleHeart, title: 'Value', para: 'lorem ipsum'},
+          ]
+        }
+      },
+      {
         name: 'footer',
 
         props: {
@@ -271,7 +286,13 @@ function App() {
 
           ]
         }
-      }
+      },
+      {name: 'whatsapp', props: {
+        phoneNumber: '+923363882586',
+        accountName: 'Binshafisports',
+        darkMode: true,
+        avatar: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706710048/Sliders/uescyyb1ltwpnbbtjcmu.png'
+      }}
 
 
 
@@ -313,7 +334,9 @@ function App() {
     'section': { Element: Section, Props: { color: config.mains.themeColor, isMobile } },
     'review': { Element: Section, Props: { color: config.mains.themeColor, isMobile } },
     'gallery': { Element: Gallery, Props: { color: config.mains.themeColor, isMobile } },
-    'footer': { Element: Footer, Props: { color: config.mains.themeColor, isMobile } }
+    'artlink' : {Element: Links, Props: {isMobile, color: themeColor}},
+    'footer': { Element: Footer, Props: { color: config.mains.themeColor, isMobile } },
+    'whatsapp': {Element: FloatingWhatsApp, Props: {}}
   }
 
   return (
