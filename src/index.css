@@ -19,6 +19,10 @@ body {
   border-radius: 30px;
 }
 
+.ant-modal-content{
+  backdrop-filter: blur(20px);
+}
+
 .ant-card-body, .ant-card-cover{
   padding: 10px !important;
 }
@@ -76,6 +80,7 @@ transition: 0.5s;
 
 .foot_links a{
   font-weight: 100;
+  padding: 7px 0px;
   letter-spacing: 3px;
   font-family: 'SF Compact Text Regular' !important;
 }

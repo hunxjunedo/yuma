@@ -22,8 +22,8 @@ function App() {
         name: 'stripe', props: {
           config: {
             background: '#4D93E7',
-            color: 'white', 
-            content: ['free delivery above order of 3000    ', '   your order will be delivered in 3 - 5 days   ',]
+            color: 'white',
+            content: ['Free delivery above order of 3000    ', '   Your order will be delivered in 3 - 5 days   ',]
 
           }
         }
@@ -33,18 +33,18 @@ function App() {
           infobg: 'rgb(250, 250,250, 0.9)',
           color: 'black',
           children: [
-            { title: 'Swimming Items', image: 'abcd', link: 'http://localhost/bshafi/product-category/swimming-items/', children: [{name: 'Swimming Goggles', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-goggles/'}, {name: 'Swimming pools', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-pools/'}, {name: 'Swimming tubes', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-tubes/'}] },
-            { title: 'Toys', image: 'abcd', link: 'http://localhost/bshafi/product-category/toys/', children: [{ name: 'Brain Train Games', link: 'http://localhost/bshafi/product-category/toys/brain-training-games/' }, {name: 'Cars', link: 'http://localhost/bshafi/product-category/toys/cars/'}, {name: 'Light and Music Toys', link: 'http://localhost/bshafi/product-category/toys/light-and-music-toys/'}, {name: 'Metal Cars', link: 'http://localhost/bshafi/product-category/toys/metal-cars/'}, {name: 'Tent-Houses', link: 'http://localhost/bshafi/product-category/toys/tent-houses/'}] },
-            { title: 'Watches', image: 'abcd', link: 'http://localhost/bshafi/product-category/watches/', children: [{ name: 'RC', link: 'www.youtube.com' }] },
-            { title: 'Board Games', image: 'abcd', link: 'http://localhost/bshafi/product-category/board-games/', children: [{ name: 'Laminated Board Games', link: 'http://localhost/bshafi/product-category/board-games/laminated-board-games/' }, {name: 'Ludo', link: 'http://localhost/bshafi/product-category/board-games/ludo/'}, {name: 'Wooden Board games', link: 'http://localhost/bshafi/product-category/board-games/wooden-board-game/'}] },
-            { title: 'Sports', image: 'abcd', link: 'http://localhost/bshafi/product-category/sports/', children: [ {name: 'Cricket', link: 'http://localhost/bshafi/product-category/sports/cricket/'}, {name: 'Cricket Bats', link: 'http://localhost/bshafi/product-category/sports/cricket-bats/'}, {name: 'Footballs', link: 'http://localhost/bshafi/product-category/sports/footballs/'}, {name: 'Tennis Balls', link: 'http://localhost/bshafi/product-category/sports/tennis-ball/'}  ] },
-            { title: 'Sports Attire', image: 'abcd', link: 'http://localhost/bshafi/product-category/sports-attire/', children: [{ name: 'Cricket Attire', link: 'http://localhost/bshafi/product-category/sports-attire/cricket-attire/' }, {name: 'Football Attire', link: 'http://localhost/bshafi/product-category/sports-attire/football-attire/'}] },
-            { title: 'Gift Items', image: 'abcd', link: 'http://localhost/bshafi/product-category/gift-items/', children: [{ name: 'Gifts For Him', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-him/' }, {name: 'Gifts For Her', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-her/'}, {name: 'Diaries', link: 'http://localhost/bshafi/product-category/gift-items/diaries/'}] },
-            { title: 'Decoration Items', image: 'abcd', link: 'http://localhost/bshafi/product-category/decoration-items/', children: [{ name: 'Candles', link: 'http://localhost/bshafi/product-category/decoration-items/candles/' }, {name: 'Foil Balloons', link: 'http://localhost/bshafi/product-category/decoration-items/foil-balloons/'}] },
-            { title: 'Mobile Accessories', image: 'abcd', link: 'http://localhost/bshafi/product-category/mobile-acessories/', children: [{name: 'Airpods', link: 'http://localhost/bshafi/product-category/mobile-acessories/air-pods/'}] },
-            { title: 'Stuff Toys', image: 'abcd', link: 'http://localhost/bshafi/product-category/stuff-toys/', children: [{ name: 'Character Stuff Toys', link: 'http://localhost/bshafi/product-category/stuff-toys/character-stuff-toy/' }, {name: 'Teddy Bears', link: 'http://localhost/bshafi/product-category/stuff-toys/teddy-bears/'}] },
-            { title: 'Under 1000', image: 'abcd', link: 'http://localhost/bshafi/product-category/under-1000/', children: [{ name: 'Under 500', link: 'http://localhost/bshafi/product-category/under-1000/under-500/' }, {name: 'Under 400', link: 'http://localhost/bshafi/product-category/under-1000/under-400/'}, {name: 'Under 300', link: 'http://localhost/bshafi/product-category/under-1000/under-300/'}, {name: 'Under 200', link: 'http://localhost/bshafi/product-category/under-1000/under-200/'}, {name: 'Under 100', link: 'http://localhost/bshafi/product-category/under-1000/under-100/'}] },
-            
+            { title: 'Swimming Items', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/gjeiqwtwjbezznaxiysg.png ', link: 'http://localhost/bshafi/product-category/swimming-items/', children: [{ name: 'Swimming Goggles', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-goggles/' }, { name: 'Swimming pools', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-pools/' }, { name: 'Swimming tubes', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-tubes/' }] },
+            { title: 'Toys', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/sxnqkfvewitqygc8bslg.png', link: 'http://localhost/bshafi/product-category/toys/', children: [{ name: 'Brain Train Games', link: 'http://localhost/bshafi/product-category/toys/brain-training-games/' }, { name: 'Cars', link: 'http://localhost/bshafi/product-category/toys/cars/' }, { name: 'Light and Music Toys', link: 'http://localhost/bshafi/product-category/toys/light-and-music-toys/' }, { name: 'Metal Cars', link: 'http://localhost/bshafi/product-category/toys/metal-cars/' }, { name: 'Tent-Houses', link: 'http://localhost/bshafi/product-category/toys/tent-houses/' }] },
+            { title: 'Watches', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/dagynocrudpytkzpv3do.png', link: 'http://localhost/bshafi/product-category/watches/', children: [{ name: 'RC', link: 'www.youtube.com' }] },
+            { title: 'Board Games', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/ciasbk6lfh3trbjkt1tj.png', link: 'http://localhost/bshafi/product-category/board-games/', children: [{ name: 'Laminated Board Games', link: 'http://localhost/bshafi/product-category/board-games/laminated-board-games/' }, { name: 'Ludo', link: 'http://localhost/bshafi/product-category/board-games/ludo/' }, { name: 'Wooden Board games', link: 'http://localhost/bshafi/product-category/board-games/wooden-board-game/' }] },
+            { title: 'Sports', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/xjafpjyia3mdvb7mhhot.png', link: 'http://localhost/bshafi/product-category/sports/', children: [{ name: 'Cricket', link: 'http://localhost/bshafi/product-category/sports/cricket/' }, { name: 'Cricket Bats', link: 'http://localhost/bshafi/product-category/sports/cricket-bats/' }, { name: 'Footballs', link: 'http://localhost/bshafi/product-category/sports/footballs/' }, { name: 'Tennis Balls', link: 'http://localhost/bshafi/product-category/sports/tennis-ball/' }] },
+            { title: 'Sports Attire', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/oovli3ufr5prhg5b2teu.png', link: 'http://localhost/bshafi/product-category/sports-attire/', children: [{ name: 'Cricket Attire', link: 'http://localhost/bshafi/product-category/sports-attire/cricket-attire/' }, { name: 'Football Attire', link: 'http://localhost/bshafi/product-category/sports-attire/football-attire/' }] },
+            { title: 'Gift Items', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/arq3qhbgkrlkf0giqk8a.png', link: 'http://localhost/bshafi/product-category/gift-items/', children: [{ name: 'Gifts For Him', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-him/' }, { name: 'Gifts For Her', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-her/' }, { name: 'Diaries', link: 'http://localhost/bshafi/product-category/gift-items/diaries/' }] },
+            { title: 'Decoration Items', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/s4g5n6dhpe9wtze4cwyp.png', link: 'http://localhost/bshafi/product-category/decoration-items/', children: [{ name: 'Candles', link: 'http://localhost/bshafi/product-category/decoration-items/candles/' }, { name: 'Foil Balloons', link: 'http://localhost/bshafi/product-category/decoration-items/foil-balloons/' }] },
+            { title: 'Mobile Accessories', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/xx66qj4ylf1rotxkdbvr.png', link: 'http://localhost/bshafi/product-category/mobile-acessories/', children: [{ name: 'Airpods', link: 'http://localhost/bshafi/product-category/mobile-acessories/air-pods/' }] },
+            { title: 'Stuff Toys', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392905/Header%20Photos/pjrnymstjs1y22uvp36g.png', link: 'http://localhost/bshafi/product-category/stuff-toys/', children: [{ name: 'Character Stuff Toys', link: 'http://localhost/bshafi/product-category/stuff-toys/character-stuff-toy/' }, { name: 'Teddy Bears', link: 'http://localhost/bshafi/product-category/stuff-toys/teddy-bears/' }] },
+            { title: 'Under 1000', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392916/Header%20Photos/xmy3yqpfovbfcqsf0gzj.png', link: 'http://localhost/bshafi/product-category/under-1000/', children: [{ name: 'Under 500', link: 'http://localhost/bshafi/product-category/under-1000/under-500/' }, { name: 'Under 400', link: 'http://localhost/bshafi/product-category/under-1000/under-400/' }, { name: 'Under 300', link: 'http://localhost/bshafi/product-category/under-1000/under-300/' }, { name: 'Under 200', link: 'http://localhost/bshafi/product-category/under-1000/under-200/' }, { name: 'Under 100', link: 'http://localhost/bshafi/product-category/under-1000/under-100/' }] },
+
 
 
           ]
@@ -59,7 +59,7 @@ function App() {
               { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707226849/Sliders/qzuegbbcxvey32dy8cbi.png", link: "", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706710632/Sliders/qxzg6xubt5zjbfixqgir.png" },
               { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225206/Sliders/pm5nrxpiuybeterocn3u.png", link: "http://localhost/bshafi/product-category/swimming-items/", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709639/Sliders/zab3x6ikhacoflmcil8z.png" },
               { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225797/Sliders/hryguz5gue7d0njvnuax.png", link: "http://localhost/bshafi/product-category/sports", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706710853/Sliders/kbqyffvsc4hs3wmmthix.jpg" },
-              {picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707226260/Sliders/jplranrggtjkg5woeq4a.jpg", link: "", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709620/Sliders/hpgixfd1xvhzvfsifjod.jpg"}
+              { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707226260/Sliders/jplranrggtjkg5woeq4a.jpg", link: "", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709620/Sliders/hpgixfd1xvhzvfsifjod.jpg" }
             ],
             autoPlay: true,
             infiniteLoop: true,
@@ -78,7 +78,7 @@ function App() {
           title: 'Top Categories', children: [
             { title: 'Swimming Tubes', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726508/Top%20Categories/pvsgm1pq1wjgpznxiw8k.png', link: "http://localhost/bshafi/product-category/swimming-items/swimming-tubes/" },
             { title: 'Swimming Pools', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706713058/Top%20Categories/yeoun6wmrsnuimpkhiek.jpg', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-pools/' },
-            { title: 'Cricket Bats', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711702/Top%20Categories/bkr8km0g8qbylcdwanrs.jpg', link: 'http://localhost/bshafi/product-category/sports/cricket-bats/' },
+            { title: 'Cricket', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711702/Top%20Categories/bkr8km0g8qbylcdwanrs.jpg', link: 'http://localhost/bshafi/product-category/sports/cricket/' },
             { title: 'Watches ', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726510/Top%20Categories/udp70raryi1ezu081r3o.png', link: "http://localhost/bshafi/product-category/watches/" },
             { title: 'Footballs', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711756/Top%20Categories/wjom7btch7hmkyq3ezsk.jpg', link: "http://localhost/bshafi/product-category/sports/footballs/" },
             { title: 'Metal Cars', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711721/Top%20Categories/pjscifs9polexr0mphnp.jpg', link: "http://localhost/bshafi/product-category/toys/metal-cars/" },
@@ -87,9 +87,9 @@ function App() {
             { title: 'Board Games', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726507/Top%20Categories/slsfgikhlizl1vhhgktk.png', link: 'http://localhost/bshafi/product-category/board-games/' },
             { title: 'Gifts For Him', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726528/Top%20Categories/cjl6gofkwmcmi2b09naf.png', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-him/' },
             { title: 'Football kits', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726521/Top%20Categories/umjpvodjomrfkq3sgwnz.png', link: 'http://localhost/bshafi/product-category/sports-attire/football-attire/' },
-            { title: 'Airpods', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711788/Top%20Categories/cptjxfl4c4w4zb2lafv0.jpg', link: 'http://localhost/bshafi/product-category/mobile-acessories/air-pods/'},
+            { title: 'Airpods', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711788/Top%20Categories/cptjxfl4c4w4zb2lafv0.jpg', link: 'http://localhost/bshafi/product-category/mobile-acessories/air-pods/' },
             { title: 'Decoration Items', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711702/Top%20Categories/aap4joglmjyizjzr8pyx.jpg', link: 'http://localhost/bshafi/product-category/decoration-items/' },
-        
+
           ]
         }
       },
@@ -99,7 +99,7 @@ function App() {
           config: {
             images: [
               { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225206/Sliders/pm5nrxpiuybeterocn3u.png", link: "http://localhost/bshafi/product-category/swimming-items/", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709639/Sliders/zab3x6ikhacoflmcil8z.png" },
-            
+
             ],
             autoPlay: true,
             infiniteLoop: true,
@@ -121,15 +121,15 @@ function App() {
             { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/hvp1siepy3cgzo3pxrgl.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-300/" },
             { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/kz4fdjdqfmbs134fuchl.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-200/" },
             { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/buwvutbknpvggyodywhf.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-100/" },
-            
-        
+
+
           ]
         }
       },
-   
+
       {
         name: 'gallery',
-        
+
 
         props: {
           title: 'There`s More',
@@ -137,10 +137,10 @@ function App() {
           photos: [
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707152950/Gallery/g42rjzzxqy0io3im7yuu.png",
-              link : "http://localhost/bshafi/product-category/board-games/",
+              link: "http://localhost/bshafi/product-category/board-games/",
               width: 300,
               height: 150,
-              
+
             },
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707228251/Gallery/h34psycomzixh1fnf7re.png",
@@ -181,7 +181,7 @@ function App() {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707152950/Gallery/rwbux72ktfzhnjkqziuu.png",
               width: 250,
               height: 300,
-              link: 'http://localhost/bshafi/product-category/',
+              link: 'http://localhost/bshafi/product-category/toys/',
               caption: "Wood Glass (Tom Eversley - isorepublic.com)",
             },
             {
@@ -206,7 +206,7 @@ function App() {
               height: 230,
               caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
             },
-          
+
           ]
         }
 
@@ -249,15 +249,25 @@ function App() {
           ]
         }
       },
-     {
+      {
         name: 'footer',
-        
+
         props: {
           background: 'rgb(200, 200, 200, 0.8)',
+          para: {
+            title: 'Binshafi Sports',
+            text: 'Shop high quality toys and sports from best brands online in Pakistan. Enjoy fast shipping, multiple payment options, easy return & great service. '
+          },
           links: [
-            {title: 'test', children: [{name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}]},
-            {title: 'test', children: [{name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}]},
-            {title: 'test', children: [{name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}, {name :'hello', link: 'https://www.google.com'}]}
+            { title: 'For Customers', children: [
+              { name: 'About Us', link: 'http://localhost/bshafi/about-us/' }, 
+              { name: 'Terms Of Service', link: 'http://localhost/bshafi/terms-of-service/' },
+              { name: 'Privacy Policy', link: 'http://localhost/bshafi/privacy-policy/' }, 
+              { name: 'Refund & Returns Policy', link: 'http://localhost/bshafi/refund_returns/' },
+              { name: 'FAQ’S', link: 'http://localhost/bshafi/faqs/' },
+              { name: 'Track Your Order', link: 'abcd' }
+
+            ] }
 
           ]
         }
@@ -272,7 +282,7 @@ function App() {
       bg: 'rgb(250, 250, 250, 0.5)',
       logo: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707226997/Sliders/aiwldjs0k2hvlkdvwhau.png',
       secondaryBG: 'rgb(30, 30, 30)',
-      searchparser: (value) => ('www.google.com/'+value)
+      searchparser: (value) => ('www.google.com/' + value)
     },
 
 
@@ -287,12 +297,12 @@ function App() {
   const themeColor = config.mains.themeColor
 
   let headerINDEX = 0;
-   config.sequence.forEach((obj, index) => {if(obj.name == 'header')  {headerINDEX = index; return;} })
+  config.sequence.forEach((obj, index) => { if (obj.name == 'header') { headerINDEX = index; return; } })
   const parsedItems = config.sequence[headerINDEX].props.children.map(onecategory => {
     return { label: onecategory.title, children: <div className='drawer_links_holder' style={{ display: 'grid', gridAutoFlow: 'row' }}>{onecategory.children.map(child => (<div style={{ cursor: 'pointer' }} onClick={() => (window.location.href = child.link)} >{child.name}</div>))}</div> }
   })
 
- const columnCOUNT = Math.ceil(config.sequence[headerINDEX].props.children[currentTitle].children.length / 10)
+  const columnCOUNT = Math.ceil(config.sequence[headerINDEX].props.children[currentTitle].children.length / 10)
 
 
 
@@ -303,7 +313,7 @@ function App() {
     'section': { Element: Section, Props: { color: config.mains.themeColor, isMobile } },
     'review': { Element: Section, Props: { color: config.mains.themeColor, isMobile } },
     'gallery': { Element: Gallery, Props: { color: config.mains.themeColor, isMobile } },
-    'footer' : {Element: Footer, Props: {color: config.mains.themeColor, isMobile}}
+    'footer': { Element: Footer, Props: { color: config.mains.themeColor, isMobile } }
   }
 
   return (
@@ -328,7 +338,7 @@ function App() {
           },
           token: {
             colorText: themeColor,
-            colorBgElevated:' rgb(250, 250, 250, 0.9)',
+            colorBgElevated: ' rgb(250, 250, 250, 0.9)',
             colorBgContainer: ' rgb(220, 220, 220, 0.9)',
             colorIcon: themeColor,
             colorTextTertiary: themeColor
@@ -343,27 +353,27 @@ function App() {
         open={drawerOpen}
         width={window.innerWidth * 0.8}
       >
-         <Search style={{marginBottom: 20}} placeholder='search here :)' onSearch={(val) => {window.location.href = config.mains.searchparser(val)}}  />
+        <Search style={{ marginBottom: 20 }} placeholder='search here :)' onSearch={(val) => { window.location.href = config.mains.searchparser(val) }} />
         <Collapse items={parsedItems}>
 
         </Collapse>
 
       </Drawer>
-      <Modal title='Search' open={searchOPEN} onCancel={()=>(setsearchOPEN(false))} onOk={()=>{ window.location.href = config.mains.searchparser(document.querySelector('.ant-input-search input').value) }}>
-        <Search placeholder='search here :)' onSearch={(val) => {window.location.href = config.mains.searchparser(val)}}  />
+      <Modal title='Search' open={searchOPEN} onCancel={() => (setsearchOPEN(false))} onOk={() => { window.location.href = config.mains.searchparser(document.querySelector('.ant-input-search input').value) }}>
+        <Search placeholder='search here :)' onSearch={(val) => { window.location.href = config.mains.searchparser(val) }} />
       </Modal>
-      <div  onMouseLeave={()=>(setInfoOpen(false))} style={{ display: 'block', height: infoOpen ? 'auto' : '0', boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px", transition: '0.5s', opacity: infoOpen ? 1 : 0,  transform: infoOpen ? 'translate(0, 20px)' : 'translate(0, 0px)', zIndex: 1000, position: 'fixed', top: '10vh', justifySelf: 'center', overflow: 'clip', borderRadius: 20, margin: 10, width: 'fit-content', minWidth: '70vw', gridAutoFlow: 'column', alignItems: 'center', background: config.sequence[headerINDEX].props.infobg || 'rgb(200, 200, 200, 0.5)', backdropFilter: 'blur(20px)' }}>
-          <div className='childholder' style={{ display: 'grid', color: themeColor, gridTemplateColumns: 'repeat(' + columnCOUNT + ',1fr)', justifyItems: 'center', padding: '10px 0px' }}>
-            {
-              config.sequence[headerINDEX].props.children[currentTitle].children.map((onechild, index) => (
-                <a href={onechild.link} style={{ color: themeColor }}>{onechild.name}</a>
-              ))
-            }
-          </div>
-          <div style={{ width: 'fit-content' }}>
-            <img style={{ borderRadius: 30, padding: 10 }} src={config.sequence[headerINDEX].props.children[currentTitle].image}></img>
-          </div>
+      <div onMouseLeave={() => (setInfoOpen(false))} style={{ display: 'grid', height: infoOpen ? 'auto' : '0', boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px", transition: '0.5s', opacity: infoOpen ? 1 : 0, transform: infoOpen ? 'translate(0, 20px)' : 'translate(0, 0px)', zIndex: 1000, position: 'fixed', top: '10vh', justifySelf: 'center', overflow: 'clip', borderRadius: 20, margin: 10, width: 'fit-content', minWidth: '50vw', gridAutoFlow: 'column', alignItems: 'center', background: config.sequence[headerINDEX].props.infobg || 'rgb(200, 200, 200, 0.5)', backdropFilter: 'blur(20px)' }}>
+        <div className='childholder' style={{ display: 'grid', alignSelf: 'center', justifySelf: 'center', color: themeColor, gridTemplateColumns: 'repeat(' + columnCOUNT + ',1fr)', justifyItems: 'center', padding: 10 }}>
+          {
+            config.sequence[headerINDEX].props.children[currentTitle].children.map((onechild, index) => (
+              <a href={onechild.link} style={{ color: themeColor }}>{onechild.name}</a>
+            ))
+          }
         </div>
+        <div style={{ width: 'fit-content' }}>
+          <img style={{ borderRadius: 30, padding: 10 }} src={config.sequence[headerINDEX].props.children[currentTitle].image}></img>
+        </div>
+      </div>
       {
         config.sequence.map(elementToRender => {
           //first check the name & get element if present
