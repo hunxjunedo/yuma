@@ -15,7 +15,7 @@ const gradient = () => {
 export default function Section({ children, title, headingbg, background, isMobile, color, type }) {
     //dvidie teh children
     let divisionCONSTANTS = {
-        'review': { mobile: 1, desktop: 5 },
+        'review': { mobile: 1, desktop: 4 },
         'other': { mobile: 3, desktop: 5 }
     }
     console.log(divisionCONSTANTS[type || 'other'][isMobile ? 'mobile' : 'desktop'])
@@ -51,7 +51,7 @@ export default function Section({ children, title, headingbg, background, isMobi
                                 group.map(({ title, link, picture, text, rate, reviewer }, index) => (
 
                                     type == 'review' ? (
-                                        <div style={{ display: 'grid', margin: '20px 0px',   gridAutoFlow: 'row',  width: (window.innerWidth / divisionCONSTANT) * 0.6, padding: 20, borderRadius: 50, background: 'rgb(240, 240, 240)' }}>
+                                        <div style={{ display: 'grid', margin: '20px 0px',   gridAutoFlow: 'row',  width: (window.innerWidth / divisionCONSTANT) * (isMobile ? 0.6 : 0.9), padding: 10,  borderRadius: 50, background: 'rgb(240, 240, 240)' }}>
                                             <p style={{ color: 'black', fontStyle: 'italic' }}>
                                                 {text}
                                             </p>
