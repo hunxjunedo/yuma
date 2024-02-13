@@ -2,7 +2,7 @@ import { Avatar, List, Popover } from "antd";
 import { ChevronDown, MenuIcon, Search, ShoppingBasket, ShoppingCart, User } from "lucide-react";
 import { useState } from "react";
 
-export default function Header({ config, color, setsearchOPEN, children, changer, isMobile, opener, setInfoOpen }) {
+export default function Header({ config, color, setsearchOPEN, children, changer, isMobile, opener, accountlink, cartlink, setInfoOpen }) {
     let alltitles = children.map(ontitle => ({ title: ontitle.title, link: ontitle.link, haschildren: ontitle.children.length > 0 }))
 
     return (
@@ -30,8 +30,8 @@ export default function Header({ config, color, setsearchOPEN, children, changer
                 <div style={{ justifySelf: 'end', display: 'grid', gridAutoFlow: 'column' }}>
                     {isMobile ? ('')
                         : (<Search onClick={() => (setsearchOPEN(true))} style={{ margin: 5, cursor: 'pointer' }} color={color || config.themeColor} />)}
-                    <ShoppingCart style={{ margin: 5, cursor: 'pointer' }} color={color || config.themeColor} />
-                    <User style={{ margin: 5, cursor: 'pointer' }} color={color || config.themeColor} />
+                    <ShoppingCart onClick={()=>(window.location.href=cartlink)} style={{ margin: 5, cursor: 'pointer' }} color={color || config.themeColor} />
+                    <User  onClick={()=>(window.location.href=accountlink)}  style={{ margin: 5, cursor: 'pointer' }} color={color || config.themeColor} />
                 </div>
             </div>
 

@@ -45,6 +45,8 @@ function App() {
         name: 'header', props: {
           infobg: 'rgb(250, 250,250, 0.9)',
           color: 'black',
+          accountlink: 'http://localhost/bshafi/my-account/',
+          cartlink: 'http://localhost/bshafi/cart/',
           children: [
             { title: 'Swimming Items', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/gjeiqwtwjbezznaxiysg.png ', link: 'http://localhost/bshafi/product-category/swimming-items/', children: [{ name: 'Swimming Goggles', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-goggles/' }, { name: 'Swimming pools', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-pools/' }, { name: 'Swimming tubes', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-tubes/' }] },
             { title: 'Toys', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/sxnqkfvewitqygc8bslg.png', link: 'http://localhost/bshafi/product-category/toys/', children: [{ name: 'Brain Train Games', link: 'http://localhost/bshafi/product-category/toys/brain-training-games/' }, { name: 'Cars', link: 'http://localhost/bshafi/product-category/toys/cars/' }, { name: 'Light and Music Toys', link: 'http://localhost/bshafi/product-category/toys/light-and-music-toys/' }, { name: 'Metal Cars', link: 'http://localhost/bshafi/product-category/toys/metal-cars/' }, { name: 'Tent-Houses', link: 'http://localhost/bshafi/product-category/toys/tent-houses/' }] },
@@ -236,35 +238,54 @@ function App() {
           headingbg: 'url(https://images.pexels.com/photos/4393860/pexels-photo-4393860.jpeg?cs=srgb&dl=pexels-mathias-reding-4393860.jpg&fm=jpg&h=200&w=200&fit=crop&_gl=1*wrrvu5*_ga*MTY4ODkyODE0MS4xNzAyMDM2Mzk4*_ga_8JE65Q40S6*MTcwNzIyMzY0OC4xNC4xLjE3MDcyMjM3MzguMC4wLjA.)',
           title: 'Testimonials', type: 'review', background: 'white', children: [
             {
-              text: 'very nice',
-              rate: 3.5
+              text: 'Very happy, Recieved the product exactly as shown in the picture ',
+              rate: 5,
+              reviewer: 'Khizer Saleem'
             },
             {
-              text: 'very nice',
-              rate: 3.5
+              text: 'Mere bachoun ko cheezein buhat pasand aayin mai dobara zaroor buy karoongi ',
+              rate: 4,
+              reviewer: 'Maryam Sheikh '
             },
             {
-              text: 'very nice',
-              rate: 3.5
+              text: ' The packaging was great none of the products were damaged and were the same as ordered  ',
+              rate: 4.5,
+              reviewer: 'Tooba Noman '
             },
             {
-              text: 'very nice',
-              rate: 3.5
+              text: ' Thanks for the custom gift packing for my kid it was really amazing   ',
+              rate: 5,
+              reviewer: 'Salman Ahmed '
             },
             {
-              text: 'very nice',
-              rate: 3.5
+              text: ' seriously i don’t trust shopping online but i took a chance and ordered from Cod method. But the product was the same so i will definitely come next time     ',
+              rate: 4,
+              reviewer: 'Amna Naseem '
             },
             {
-              text: 'very nice',
-              rate: 3.5
-            }, {
-              text: 'very nice',
-              rate: 3.5
+              text: ' Did some shopping got good prices compared to others ',
+              rate: 4,
+              reviewer: 'Areeb Ahmed   '
             },
             {
-              text: 'very nice',
-              rate: 3.5
+              text: ' Happy because the shipping vas very fast ',
+              rate: 5,
+              reviewer: 'Momina Danish '
+            },
+            {
+              text: ' Ordered the swimming rings for my kids. Glad to see none of them were punctured ',
+              rate: 5,
+              reviewer: 'Danish Ali  '
+            },
+            {
+              text: '  Bought a bat for myself got great compliments definitely gonna buy again       ',
+              rate: 4,
+              reviewer: 'Anas Shahid   '
+            },
+            {
+              text: ' The non-inflateable pool is life saver. It never gets punctured       ',
+              rate: 5,
+              reviewer: 'Azka   '
             },
           ]
         }
