@@ -4,7 +4,7 @@ export default function Link({background, items, color, isMobile, heading}){
     return (
  <>
  <Heading text={heading} />
- <div style={{background, scrollSnapType: 'x mandatory', gap: 20, alignItems: 'center', justifyItems: 'center', backgroundRepeat: 'no-repeat',  gridAutoFlow: 'column', overflowX: 'scroll', display: 'grid', backgroundSize: 'cover', height: '50vh'}}>
+ <div style={{background, scrollSnapType: 'x mandatory', gap: 20, alignItems: 'center', justifyItems: 'center', backgroundRepeat: 'no-repeat',  gridAutoFlow: 'column', overflowX: 'scroll', display: 'grid', backgroundSize: 'cover', height: `${isMobile ? 30 : 50}vh`}}>
 {
     items.map(Child=> (
         <div style={{

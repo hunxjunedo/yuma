@@ -12,6 +12,10 @@ body {
   font-family: 'SF Compact Text Bold' !important;
 
 }
+
+.connecticons a{
+  color: inherit !important;
+}
 .ant-card{
   background: #ffffff00 !important;
   border: none !important;

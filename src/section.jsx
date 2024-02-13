@@ -52,9 +52,12 @@ export default function Section({ children, title, headingbg, background, isMobi
 
                                     type == 'review' ? (
                                         <div style={{ display: 'grid', margin: '20px 0px',   gridAutoFlow: 'row', maxHeight: '20vh', width: (window.innerWidth / divisionCONSTANT) * 0.6, height: window.innerWidth / divisionCONSTANT - 10, borderRadius: 50, background: 'rgb(240, 240, 240)' }}>
-                                            <p style={{ color: 'black' }}>
+                                            <p style={{ color: 'black', fontStyle: 'italic' }}>
                                                 {text}
                                             </p>
+                                            <span>
+                                                -{reviewer}
+                                            </span>
                                             <Rating
                                                 readonly={true}
                                                 initialValue={rate}

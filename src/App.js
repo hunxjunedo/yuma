@@ -2,7 +2,7 @@ import './App.css';
 import Stripe from './stripe';
 
 import Header from './header';
-import { Avatar, Col, Collapse, ConfigProvider, Drawer, List, Modal } from 'antd';
+import { Avatar, Col, Collapse, ConfigProvider, Drawer, List, Modal, Tooltip } from 'antd';
 import { useState } from 'react';
 import Banner from './banner';
 import Section from './section';
@@ -16,11 +16,20 @@ import Footer from './footer';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import bgsvg from './bg.svg'
 import Links from './links';
-import { MessageCircleHeart } from 'lucide-react';
+import { Facebook, Instagram,  Mail, MessageCircleHeart, Navigation, Phone } from 'lucide-react';
 
 function App() {
   const isMobile = window.innerWidth <= 450;
   const config = {
+    mains: {
+      themeColor: '#4D93E7',
+      name: 'Binshafi Sports',
+      bg: 'rgb(250, 250, 250, 0.5)',
+      logo: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707226997/Sliders/aiwldjs0k2hvlkdvwhau.png',
+      secondaryBG: 'rgb(30, 30, 30)',
+      searchparser: (value) => ('www.google.com/' + value)
+    },
+
     sequence: [
       {
         name: 'stripe', props: {
@@ -278,7 +287,24 @@ function App() {
           background: 'rgb(200, 200, 200, 0.8)',
           para: {
             title: 'Binshafi Sports',
-            text: 'Shop high quality toys and sports from best brands online in Pakistan. Enjoy fast shipping, multiple payment options, easy return & great service. '
+            text: 'Shop high quality toys and sports from best brands online in Pakistan. Enjoy fast shipping, multiple payment options, easy return & great service. ',
+            extras: (
+             <>
+              <Heading text='Connect' />
+              <div className='connecticons' style={{display: 'grid', color: '#4D93E7', gridAutoFlow: 'column', alignItems: 'center', justifyItems: 'center'}}>
+                <a href='https://www.facebook.com/binshafisports'>{<Instagram  color='#4D93E7' />}</a>
+                <a href='https://www.instagram.com/binshafi_sports/?hl=de'>{<Facebook  color='#4D93E7'/>}</a>
+                <a href='mailto:binshafisports.pk@gmail.com'>{<Mail color='#4D93E7' />}</a>
+                <a href='tel:+92 324 3233879'>{<Phone color='#4D93E7' />}</a>
+                <a href='https://api.whatsapp.com/send/?phone=+923243233879'>{<p>WA</p>}</a>
+                <Tooltip trigger='hover' title='Shop 3 Block 3 K.A.E.C.H.S society Karachi , Pakistan 74900 ' defaultOpen >
+                  <a>{<Navigation color='#4D93E7' />}</a>
+                </Tooltip>
+              </div>
+              
+
+             </>
+            )
           },
           links: [
             { title: 'For Customers', children: [
@@ -289,7 +315,8 @@ function App() {
               { name: 'FAQ’S', link: 'http://localhost/bshafi/faqs/' },
               { name: 'Track Your Order', link: 'abcd' }
 
-            ] }
+            ] },
+           
 
           ]
         }
@@ -304,14 +331,6 @@ function App() {
 
 
     ],
-    mains: {
-      themeColor: '#4D93E7',
-      name: 'Binshafi Sports',
-      bg: 'rgb(250, 250, 250, 0.5)',
-      logo: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707226997/Sliders/aiwldjs0k2hvlkdvwhau.png',
-      secondaryBG: 'rgb(30, 30, 30)',
-      searchparser: (value) => ('www.google.com/' + value)
-    },
 
 
   }
