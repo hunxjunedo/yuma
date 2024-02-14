@@ -11,7 +11,7 @@ export default function Footer({ color, links, isMobile, background, para, headi
                     isMobile ? (
                        <>
                         <div style={{width: isMobile ? '95vw' : '20vw', textAlign: 'center', color}}>
-                                    <Heading text={para.title} />
+                                    <img style={{maxHeight: '15vh'}} src="https://res.cloudinary.com/di5dzukri/image/upload/v1707910750/Top%20Categories/fgtboweazwmoq6kevqgn.png" />
                                     <p>
                                         {para.text}
                                     </p>
@@ -32,8 +32,9 @@ export default function Footer({ color, links, isMobile, background, para, headi
                         // <Heading text={para.title} />
                         (
                             <>
-                                <div style={{width: isMobile ? '95vw' : '20vw'}}>
-                                    <Heading text={para.title} />
+                                <div style={{width: isMobile ? '95vw' : '20vw', color}}>
+                                <img style={{maxHeight: '15vh'}} src="https://res.cloudinary.com/di5dzukri/image/upload/v1707910750/Top%20Categories/fgtboweazwmoq6kevqgn.png" />
+
                                     <p>
                                         {para.text}
                                     </p>
@@ -43,7 +44,7 @@ export default function Footer({ color, links, isMobile, background, para, headi
                                 </div>
                                 {links.map(onecategory => (
                                     <>
-                                        <div style={{ display: 'flex', flexFlow: 'column', width: '90%',  borderLeft: '1px solid white', padding: '0px 10px' }}>
+                                        <div style={{ display: 'flex', flexFlow: 'column', width: '90%', placeItems: 'center',  padding: '0px 10px' }}>
                                             <Heading background='url(https://images.pexels.com/photos/4393860/pexels-photo-4393860.jpeg?cs=srgb&dl=pexels-mathias-reding-4393860.jpg&fm=jpg&h=200&w=200&fit=crop&_gl=1*wrrvu5*_ga*MTY4ODkyODE0MS4xNzAyMDM2Mzk4*_ga_8JE65Q40S6*MTcwNzIyMzY0OC4xNC4xLjE3MDcyMjM3MzguMC4wLjA.)' text={onecategory.title} />
 
                                             {
