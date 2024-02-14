@@ -112,6 +112,10 @@ transition: 0.5s;
   src: url('../public/SFPRODISPLAYREGULAR.OTF');
 }
 
+.ant-modal-header{
+  background: transparent !important;
+}
+
 .filler{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

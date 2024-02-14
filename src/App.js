@@ -27,7 +27,7 @@ function App() {
       bg: 'rgb(250, 250, 250, 0.5)',
       logo: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707226997/Sliders/aiwldjs0k2hvlkdvwhau.png',
       secondaryBG: 'rgb(30, 30, 30)',
-      searchparser: (value) => ('www.google.com/' + value)
+      searchparser: (value) => ('localhost/bshafi/?s=' + value +'&post_type=product')
     },
 
     sequence: [
@@ -400,7 +400,7 @@ function App() {
               contentBg: 'transparent'
             },
             Input: {
-              activeBg: ' rgb(220, 220, 220, 0.9)',
+              activeBg: ' rgb(220, 220, 220, 0.0)',
               hoverBg: ' rgb(220, 220, 220, 0.9)',
               colorIcon: themeColor,
               colorTextPlaceholder: themeColor

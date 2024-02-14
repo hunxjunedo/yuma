@@ -32,8 +32,8 @@ export default function Footer({ color, links, isMobile, background, para, headi
                         // <Heading text={para.title} />
                         (
                             <>
-                                <div style={{width: isMobile ? '95vw' : '20vw', color}}>
-                                <img style={{maxHeight: '15vh'}} src="https://res.cloudinary.com/di5dzukri/image/upload/v1707910750/Top%20Categories/fgtboweazwmoq6kevqgn.png" />
+                                <div style={{width: isMobile ? '95vw' : '60%', color, fontSize: 20}}>
+                                <img style={{maxHeight: '30vh', marginLeft: '-200px', marginBottom: '-40px'}} src="https://res.cloudinary.com/di5dzukri/image/upload/v1707910750/Top%20Categories/fgtboweazwmoq6kevqgn.png" />
 
                                     <p>
                                         {para.text}
