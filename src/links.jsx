@@ -4,16 +4,18 @@ export default function Link({background, items, color, isMobile, heading}){
     return (
  <>
  <Heading text={heading} />
- <div style={{background, scrollSnapType: 'x mandatory', gap: 20, alignItems: 'center', justifyItems: 'center', backgroundRepeat: 'no-repeat',  gridAutoFlow: 'column', overflowX: 'scroll', display: 'grid', backgroundSize: 'cover', height: `${isMobile ? 30 : 50}vh`}}>
+ <div style={{background: 'white', margin: 10, scrollSnapType: 'x mandatory', gap: 20, alignItems: 'center', justifyItems: 'center', backgroundRepeat: 'no-repeat',  gridAutoFlow: 'column', overflowX: 'scroll', overflowY: 'clip', display: 'grid', backgroundSize: 'cover', height: `${isMobile ? 30 : 30}vh`}}>
 {
     items.map(Child=> (
         <div style={{
             background: 'rgb(250, 250, 250, 0.8)',
             borderRadius: 40,
             scrollSnapAlign: 'start',
+            padding: 10,
+            fontSize: 14,
             backdropFilter: 'blur(5px)',
             display: 'grid',
-            gridTemplateColumns: '30% 70%',
+            gridTemplateColumns: '20% 80%',
             alignItems: 'center',
             justifyItems: 'center',
             width: `${isMobile ? 90 : 26}vw`,

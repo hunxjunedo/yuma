@@ -39,14 +39,14 @@ export default function Section({ children, title, headingbg, background, isMobi
     });
     return (
         <>
-            <Heading background={headingbg || false} text={title} />
-            <p  style={{ margin: 0 }}></p>
+            <Heading ref={ref} background={headingbg || false} text={title} />
+            <p ref={ref} style={{ margin: 0 }}></p>
             <Carousel preventMovementUntilSwipeScrollTolerance={true} swipeScrollTolerance={50} style={{ background: background || gradient() }} emulateTouch showArrows={isMobile ? false : true} autoPlay={false} showIndicators={true} showThumbs={false} showStatus={false}>
 
                 {
 
                     childgroups.map((group, mainindex) => (
-                        <div style={{ display: 'grid', justifyItems: 'center',  transition: '1.5s', background: background || gradient(), gridAutoFlow: 'column', color: color }}>
+                        <div style={{ display: 'grid', justifyItems: 'center', transform: inView ? 'translate(0, 0px)' : 'translate(0, -20px)',  opacity: inView ? 1 : 0, transition: '1.5s', background: background || gradient(), gridAutoFlow: 'column', color: color }}>
                             {
                                 group.map(({ title, link, picture, text, rate, reviewer }, index) => (
 

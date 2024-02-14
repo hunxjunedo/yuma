@@ -13,6 +13,10 @@ body {
 
 }
 
+.foot_links .ant-collapse-header{
+  color: white !important;
+}
+
 .connecticons a{
   color: inherit !important;
 }

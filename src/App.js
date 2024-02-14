@@ -16,7 +16,7 @@ import Footer from './footer';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import bgsvg from './bg.svg'
 import Links from './links';
-import { Facebook, Instagram,  Mail, MessageCircleHeart, Navigation, Phone } from 'lucide-react';
+import { Facebook, Gem, Instagram,  Mail, MailOpen, MessageCircleHeart, Navigation, Phone, ShieldCheck, Truck } from 'lucide-react';
 
 function App() {
   const isMobile = window.innerWidth <= 450;
@@ -236,7 +236,7 @@ function App() {
       {
         name: 'review', props: {
           headingbg: 'url(https://images.pexels.com/photos/4393860/pexels-photo-4393860.jpeg?cs=srgb&dl=pexels-mathias-reding-4393860.jpg&fm=jpg&h=200&w=200&fit=crop&_gl=1*wrrvu5*_ga*MTY4ODkyODE0MS4xNzAyMDM2Mzk4*_ga_8JE65Q40S6*MTcwNzIyMzY0OC4xNC4xLjE3MDcyMjM3MzguMC4wLjA.)',
-          title: 'Testimonials', type: 'review', background: 'white', children: [
+          title: 'What Our Customers Say', type: 'review', background: 'white', children: [
             {
               text: 'Very happy, Recieved the product exactly as shown in the picture ',
               rate: 5,
@@ -295,9 +295,9 @@ function App() {
           background: `url(${bgsvg})`,
           heading: 'Why Us',
           items: [
-            {icon: MessageCircleHeart, title: 'Value', para: 'lorem ipsum'},
-            {icon: MessageCircleHeart, title: 'Value', para: 'lorem ipsum'},
-            {icon: MessageCircleHeart, title: 'Value', para: 'lorem ipsum'},
+            {icon: Gem, title: 'Value', para: 'We only choose original and safe to use products for our children before putting up on sale.'},
+            {icon: ShieldCheck, title: 'Replacement Warranty', para: 'We accept we can make mistakes, But the best part is you are 100% Secure. Just Call Us 03211222869 & See how we solve your problems.'},
+            {icon: Truck, title: 'Nationwide Fastest Delivery', para: 'We work with industry’s leading courier partners to insure your package reaches you faster & Safely'},
           ]
         }
       },
@@ -305,21 +305,22 @@ function App() {
         name: 'footer',
 
         props: {
-          background: 'rgb(200, 200, 200, 0.8)',
+          background: 'linear-gradient(90deg, rgba(157,152,232,1) 0%, rgba(0,155,255,1) 49%, rgba(69,69,142,1) 100%)',
+          headingShow: false,
           para: {
             title: 'Binshafi Sports',
             text: 'Shop high quality toys and sports from best brands online in Pakistan. Enjoy fast shipping, multiple payment options, easy return & great service. ',
             extras: (
              <>
               <Heading text='Connect' />
-              <div className='connecticons' style={{display: 'grid', color: '#4D93E7', gridAutoFlow: 'column', alignItems: 'center', justifyItems: 'center'}}>
-                <a href='https://www.facebook.com/binshafisports'>{<Instagram  color='#4D93E7' />}</a>
-                <a href='https://www.instagram.com/binshafi_sports/?hl=de'>{<Facebook  color='#4D93E7'/>}</a>
-                <a href='mailto:binshafisports.pk@gmail.com'>{<Mail color='#4D93E7' />}</a>
-                <a href='tel:+92 324 3233879'>{<Phone color='#4D93E7' />}</a>
+              <div className='connecticons' style={{display: 'grid', color: 'white', gridAutoFlow: 'column', alignItems: 'center', justifyItems: 'center'}}>
+                <a href='https://www.facebook.com/binshafisports'>{<Instagram  color='white' />}</a>
+                <a href='https://www.instagram.com/binshafi_sports/?hl=de'>{<Facebook  color='white'/>}</a>
+                <a href='mailto:binshafisports.pk@gmail.com'>{<MailOpen color='white' />}</a>
+                <a href='tel:+92 324 3233879'>{<Phone color='white' />}</a>
                 <a href='https://api.whatsapp.com/send/?phone=+923243233879'>{<p>WA</p>}</a>
                 <Tooltip trigger='hover' title='Shop 3 Block 3 K.A.E.C.H.S society Karachi , Pakistan 74900 ' defaultOpen >
-                  <a>{<Navigation color='#4D93E7' />}</a>
+                  <a>{<Navigation color='white' />}</a>
                 </Tooltip>
               </div>
               
@@ -343,7 +344,7 @@ function App() {
         }
       },
       {name: 'whatsapp', props: {
-        phoneNumber: '+923363882586',
+        phoneNumber: '+923243233879',
         accountName: 'Binshafisports',
         darkMode: true,
         avatar: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706710048/Sliders/uescyyb1ltwpnbbtjcmu.png'
@@ -382,7 +383,7 @@ function App() {
     'review': { Element: Section, Props: { color: config.mains.themeColor, isMobile } },
     'gallery': { Element: Gallery, Props: { color: config.mains.themeColor, isMobile } },
     'artlink' : {Element: Links, Props: {isMobile, color: themeColor}},
-    'footer': { Element: Footer, Props: { color: config.mains.themeColor, isMobile } },
+    'footer': { Element: Footer, Props: { color: 'white', isMobile } },
     'whatsapp': {Element: FloatingWhatsApp, Props: {}}
   }
 
