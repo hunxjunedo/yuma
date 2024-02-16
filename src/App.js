@@ -27,7 +27,7 @@ function App() {
       bg: 'rgb(250, 250, 250, 0.5)',
       logo: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707226997/Sliders/aiwldjs0k2hvlkdvwhau.png',
       secondaryBG: 'rgb(30, 30, 30)',
-      searchparser: (value) => ('localhost/bshafi/?s=' + value +'&post_type=product')
+      searchparser: (value) => ('localhost/bshafi/?query=' + value +'&post_type=product')
     },
 
     sequence: [
@@ -314,8 +314,8 @@ function App() {
              <>
               <Heading text='Connect' />
               <div className='connecticons' style={{display: 'grid', color: 'white', gridAutoFlow: 'column', alignItems: 'center', justifyItems: 'center'}}>
-                <a href='https://www.facebook.com/binshafisports'>{<Instagram  color='white' />}</a>
-                <a href='https://www.instagram.com/binshafi_sports/?hl=de'>{<Facebook  color='white'/>}</a>
+                <a  href='https://www.instagram.com/binshafi_sports/?hl=de'>{<Instagram  color='white' />}</a>
+                <a href='https://www.facebook.com/binshafisports' >{<Facebook  color='white'/>}</a>
                 <a href='mailto:binshafisports.pk@gmail.com'>{<MailOpen color='white' />}</a>
                 <a href='tel:+92 324 3233879'>{<Phone color='white' />}</a>
                 <a href='https://api.whatsapp.com/send/?phone=+923243233879'>{<p>WA</p>}</a>
