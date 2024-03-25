@@ -27,7 +27,7 @@ function App() {
       bg: 'rgb(250, 250, 250, 0.5)',
       logo: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707226997/Sliders/aiwldjs0k2hvlkdvwhau.png',
       secondaryBG: 'rgb(30, 30, 30)',
-      searchparser: (value) => ('localhost/bshafi/?query=' + value +'&post_type=product')
+      searchparser: (value) => ('https://www.binshafisports.com/?query=' + value +'&post_type=product')
     },
 
     sequence: [
@@ -45,20 +45,20 @@ function App() {
         name: 'header', props: {
           infobg: 'rgb(250, 250,250, 0.9)',
           color: 'black',
-          accountlink: 'http://localhost/bshafi/my-account/',
-          cartlink: 'http://localhost/bshafi/cart/',
+          accountlink: 'https://www.binshafisports.com/my-account/',
+          cartlink: 'https://www.binshafisports.com/cart/',
           children: [
-            { title: 'Swimming Items', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/gjeiqwtwjbezznaxiysg.png ', link: 'http://localhost/bshafi/product-category/swimming-items/', children: [{ name: 'Swimming Goggles', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-goggles/' }, { name: 'Swimming pools', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-pools/' }, { name: 'Swimming tubes', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-tubes/' }] },
-            { title: 'Toys', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/sxnqkfvewitqygc8bslg.png', link: 'http://localhost/bshafi/product-category/toys/', children: [{ name: 'Brain Train Games', link: 'http://localhost/bshafi/product-category/toys/brain-training-games/' }, { name: 'Cars', link: 'http://localhost/bshafi/product-category/toys/cars/' }, { name: 'Light and Music Toys', link: 'http://localhost/bshafi/product-category/toys/light-and-music-toys/' }, { name: 'Metal Cars', link: 'http://localhost/bshafi/product-category/toys/metal-cars/' }, { name: 'Tent-Houses', link: 'http://localhost/bshafi/product-category/toys/tent-houses/' }] },
-            { title: 'Watches', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/dagynocrudpytkzpv3do.png', link: 'http://localhost/bshafi/product-category/watches/', children: [{ name: 'Men`s Watches', link: 'http://localhost/bshafi/product-category/watches/mens-watches/' }, { name: 'Women`s Watches', link: 'http://localhost/bshafi/product-category/watches/ladies-watches/' }, { name: 'Kid`s Watches', link: 'http://localhost/bshafi/product-category/watches/kids-watches/' }] },
-            { title: 'Board Games', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/ciasbk6lfh3trbjkt1tj.png', link: 'http://localhost/bshafi/product-category/board-games/', children: [{ name: 'Laminated Board Games', link: 'http://localhost/bshafi/product-category/board-games/laminated-board-games/' }, { name: 'Ludo', link: 'http://localhost/bshafi/product-category/board-games/ludo/' }, { name: 'Wooden Board games', link: 'http://localhost/bshafi/product-category/board-games/wooden-board-game/' }] },
-            { title: 'Sports', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/xjafpjyia3mdvb7mhhot.png', link: 'http://localhost/bshafi/product-category/sports/', children: [{ name: 'Cricket', link: 'http://localhost/bshafi/product-category/sports/cricket/' }, { name: 'Cricket Bats', link: 'http://localhost/bshafi/product-category/sports/cricket-bats/' }, { name: 'Footballs', link: 'http://localhost/bshafi/product-category/sports/footballs/' }, { name: 'Tennis Balls', link: 'http://localhost/bshafi/product-category/sports/tennis-ball/' } , {name: 'Badminton Rackets', link: 'http://localhost/bshafi/product-category/sports/badminton-rackets/'}, {name: 'Basket Ball', link: 'http://localhost/bshafi/product-category/sports/basket-balls/'}] },
-            { title: 'Sports Attire', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/oovli3ufr5prhg5b2teu.png', link: 'http://localhost/bshafi/product-category/sports-attire/', children: [{ name: 'Cricket Attire', link: 'http://localhost/bshafi/product-category/sports-attire/cricket-attire/' }, { name: 'Football Attire', link: 'http://localhost/bshafi/product-category/sports-attire/football-attire/' }] },
-            { title: 'Gift Items', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/arq3qhbgkrlkf0giqk8a.png', link: 'http://localhost/bshafi/product-category/gift-items/', children: [{ name: 'Gifts For Him', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-him/' }, { name: 'Gifts For Her', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-her/' }, { name: 'Diaries', link: 'http://localhost/bshafi/product-category/gift-items/diaries/' }] },
-            { title: 'Decoration Items', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/s4g5n6dhpe9wtze4cwyp.png', link: 'http://localhost/bshafi/product-category/decoration-items/', children: [{ name: 'Candles', link: 'http://localhost/bshafi/product-category/decoration-items/candles/' }, { name: 'Foil Balloons', link: 'http://localhost/bshafi/product-category/decoration-items/foil-balloons/' }] },
-            { title: 'Mobile Accessories', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/xx66qj4ylf1rotxkdbvr.png', link: 'http://localhost/bshafi/product-category/mobile-acessories/', children: [{ name: 'Airpods', link: 'http://localhost/bshafi/product-category/mobile-acessories/air-pods/' }] },
-            { title: 'Stuff Toys', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392905/Header%20Photos/pjrnymstjs1y22uvp36g.png', link: 'http://localhost/bshafi/product-category/stuff-toys/', children: [{ name: 'Character Stuff Toys', link: 'http://localhost/bshafi/product-category/stuff-toys/character-stuff-toy/' }, { name: 'Teddy Bears', link: 'http://localhost/bshafi/product-category/stuff-toys/teddy-bears/' }] },
-            { title: 'Under 1000', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392916/Header%20Photos/xmy3yqpfovbfcqsf0gzj.png', link: 'http://localhost/bshafi/product-category/under-1000/', children: [{ name: 'Under 500', link: 'http://localhost/bshafi/product-category/under-1000/under-500/' }, { name: 'Under 400', link: 'http://localhost/bshafi/product-category/under-1000/under-400/' }, { name: 'Under 300', link: 'http://localhost/bshafi/product-category/under-1000/under-300/' }, { name: 'Under 200', link: 'http://localhost/bshafi/product-category/under-1000/under-200/' }, { name: 'Under 100', link: 'http://localhost/bshafi/product-category/under-1000/under-100/' }] },
+            { title: 'Swimming Items', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/gjeiqwtwjbezznaxiysg.png ', link: 'https://www.binshafisports.com/product-category/swimming-items/', children: [{ name: 'Swimming Goggles', link: 'https://www.binshafisports.com/product-category/swimming-items/swimming-goggles/' }, { name: 'Swimming pools', link: 'https://www.binshafisports.com/product-category/swimming-items/swimming-pools/' }, { name: 'Swimming tubes', link: 'https://www.binshafisports.com/product-category/swimming-items/swimming-tubes/' }] },
+            { title: 'Toys', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/sxnqkfvewitqygc8bslg.png', link: 'https://www.binshafisports.com/product-category/toys/', children: [{ name: 'Brain Train Games', link: 'https://www.binshafisports.com/product-category/toys/brain-training-games/' }, { name: 'Cars', link: 'https://www.binshafisports.com/product-category/toys/cars/' }, { name: 'Light and Music Toys', link: 'https://www.binshafisports.com/product-category/toys/light-and-music-toys/' }, { name: 'Metal Cars', link: 'https://www.binshafisports.com/product-category/toys/metal-cars/' }, { name: 'Tent-Houses', link: 'https://www.binshafisports.com/product-category/toys/tent-houses/' }] },
+            { title: 'Watches', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/dagynocrudpytkzpv3do.png', link: 'https://www.binshafisports.com/product-category/watches/', children: [{ name: 'Men`s Watches', link: 'https://www.binshafisports.com/product-category/watches/mens-watches/' }, { name: 'Women`s Watches', link: 'https://www.binshafisports.com/product-category/watches/ladies-watches/' }, { name: 'Kid`s Watches', link: 'https://www.binshafisports.com/product-category/watches/kids-watches/' }] },
+            { title: 'Board Games', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/ciasbk6lfh3trbjkt1tj.png', link: 'https://www.binshafisports.com/product-category/board-games/', children: [{ name: 'Laminated Board Games', link: 'https://www.binshafisports.com/product-category/board-games/laminated-board-games/' }, { name: 'Ludo', link: 'https://www.binshafisports.com/product-category/board-games/ludo/' }, { name: 'Wooden Board games', link: 'https://www.binshafisports.com/product-category/board-games/wooden-board-game/' }] },
+            { title: 'Sports', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392903/Header%20Photos/xjafpjyia3mdvb7mhhot.png', link: 'https://www.binshafisports.com/product-category/sports/', children: [{ name: 'Cricket', link: 'https://www.binshafisports.com/product-category/sports/cricket/' }, { name: 'Cricket Bats', link: 'https://www.binshafisports.com/product-category/sports/cricket-bats/' }, { name: 'Footballs', link: 'https://www.binshafisports.com/product-category/sports/footballs/' }, { name: 'Tennis Balls', link: 'https://www.binshafisports.com/product-category/sports/tennis-ball/' } , {name: 'Badminton Rackets', link: 'https://www.binshafisports.com/product-category/sports/badminton-rackets/'}, {name: 'Basket Ball', link: 'https://www.binshafisports.com/product-category/sports/basket-balls/'}] },
+            { title: 'Sports Attire', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/oovli3ufr5prhg5b2teu.png', link: 'https://www.binshafisports.com/product-category/sports-attire/', children: [{ name: 'Cricket Attire', link: 'https://www.binshafisports.com/product-category/sports-attire/cricket-attire/' }, { name: 'Football Attire', link: 'https://www.binshafisports.com/product-category/sports-attire/football-attire/' }] },
+            { title: 'Gift Items', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/arq3qhbgkrlkf0giqk8a.png', link: 'https://www.binshafisports.com/product-category/gift-items/', children: [{ name: 'Gifts For Him', link: 'https://www.binshafisports.com/product-category/gift-items/gifts-for-him/' }, { name: 'Gifts For Her', link: 'https://www.binshafisports.com/product-category/gift-items/gifts-for-her/' }, { name: 'Diaries', link: 'https://www.binshafisports.com/product-category/gift-items/diaries/' }] },
+            { title: 'Decoration Items', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/s4g5n6dhpe9wtze4cwyp.png', link: 'https://www.binshafisports.com/product-category/decoration-items/', children: [{ name: 'Candles', link: 'https://www.binshafisports.com/product-category/decoration-items/candles/' }, { name: 'Foil Balloons', link: 'https://www.binshafisports.com/product-category/decoration-items/foil-balloons/' }] },
+            { title: 'Mobile Accessories', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392904/Header%20Photos/xx66qj4ylf1rotxkdbvr.png', link: 'https://www.binshafisports.com/product-category/mobile-acessories/', children: [{ name: 'Airpods', link: 'https://www.binshafisports.com/product-category/mobile-acessories/air-pods/' }] },
+            { title: 'Stuff Toys', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392905/Header%20Photos/pjrnymstjs1y22uvp36g.png', link: 'https://www.binshafisports.com/product-category/stuff-toys/', children: [{ name: 'Character Stuff Toys', link: 'https://www.binshafisports.com/product-category/stuff-toys/character-stuff-toy/' }, { name: 'Teddy Bears', link: 'https://www.binshafisports.com/product-category/stuff-toys/teddy-bears/' }] },
+            { title: 'Under 1000', image: 'https://res.cloudinary.com/di5dzukri/image/upload/v1707392916/Header%20Photos/xmy3yqpfovbfcqsf0gzj.png', link: 'https://www.binshafisports.com/product-category/under-1000/', children: [{ name: 'Under 500', link: 'https://www.binshafisports.com/product-category/under-1000/under-500/' }, { name: 'Under 400', link: 'https://www.binshafisports.com/product-category/under-1000/under-400/' }, { name: 'Under 300', link: 'https://www.binshafisports.com/product-category/under-1000/under-300/' }, { name: 'Under 200', link: 'https://www.binshafisports.com/product-category/under-1000/under-200/' }, { name: 'Under 100', link: 'https://www.binshafisports.com/product-category/under-1000/under-100/' }] },
 
 
 
@@ -72,8 +72,8 @@ function App() {
           config: {
             images: [
               { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707226849/Sliders/qzuegbbcxvey32dy8cbi.png", link: "", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706710632/Sliders/qxzg6xubt5zjbfixqgir.png" },
-              { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225206/Sliders/pm5nrxpiuybeterocn3u.png", link: "http://localhost/bshafi/product-category/swimming-items/", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709639/Sliders/zab3x6ikhacoflmcil8z.png" },
-              { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225797/Sliders/hryguz5gue7d0njvnuax.png", link: "http://localhost/bshafi/product-category/sports", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706710853/Sliders/kbqyffvsc4hs3wmmthix.jpg" },
+              { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225206/Sliders/pm5nrxpiuybeterocn3u.png", link: "https://www.binshafisports.com/product-category/swimming-items/", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709639/Sliders/zab3x6ikhacoflmcil8z.png" },
+              { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225797/Sliders/hryguz5gue7d0njvnuax.png", link: "https://www.binshafisports.com/product-category/sports", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706710853/Sliders/kbqyffvsc4hs3wmmthix.jpg" },
               { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707226260/Sliders/jplranrggtjkg5woeq4a.jpg", link: "", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709620/Sliders/hpgixfd1xvhzvfsifjod.jpg" }
             ],
             autoPlay: true,
@@ -91,19 +91,19 @@ function App() {
         name: 'section', props: {
           background: 'white',
           title: 'Top Categories', children: [
-            { title: 'Swimming Tubes', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726508/Top%20Categories/pvsgm1pq1wjgpznxiw8k.png', link: "http://localhost/bshafi/product-category/swimming-items/swimming-tubes/" },
-            { title: 'Swimming Pools', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706713058/Top%20Categories/yeoun6wmrsnuimpkhiek.jpg', link: 'http://localhost/bshafi/product-category/swimming-items/swimming-pools/' },
-            { title: 'Cricket', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711702/Top%20Categories/bkr8km0g8qbylcdwanrs.jpg', link: 'http://localhost/bshafi/product-category/sports/cricket/' },
-            { title: 'Watches ', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726510/Top%20Categories/udp70raryi1ezu081r3o.png', link: "http://localhost/bshafi/product-category/watches/" },
-            { title: 'Footballs', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711756/Top%20Categories/wjom7btch7hmkyq3ezsk.jpg', link: "http://localhost/bshafi/product-category/sports/footballs/" },
-            { title: 'Metal Cars', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711721/Top%20Categories/pjscifs9polexr0mphnp.jpg', link: "http://localhost/bshafi/product-category/toys/metal-cars/" },
-            { title: 'Gifts For Her', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726531/Top%20Categories/io3syb8zwgnwnlv0nr7q.png', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-her/' },
-            { title: 'Ludo', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711733/Top%20Categories/ulrp4yelpum76vit02rv.jpg', link: "http://localhost/bshafi/product-category/board-games/ludo/" },
-            { title: 'Board Games', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726507/Top%20Categories/slsfgikhlizl1vhhgktk.png', link: 'http://localhost/bshafi/product-category/board-games/' },
-            { title: 'Gifts For Him', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726528/Top%20Categories/cjl6gofkwmcmi2b09naf.png', link: 'http://localhost/bshafi/product-category/gift-items/gifts-for-him/' },
-            { title: 'Football kits', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726521/Top%20Categories/umjpvodjomrfkq3sgwnz.png', link: 'http://localhost/bshafi/product-category/sports-attire/football-attire/' },
-            { title: 'Airpods', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711788/Top%20Categories/cptjxfl4c4w4zb2lafv0.jpg', link: 'http://localhost/bshafi/product-category/mobile-acessories/air-pods/' },
-            { title: 'Decoration Items', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711702/Top%20Categories/aap4joglmjyizjzr8pyx.jpg', link: 'http://localhost/bshafi/product-category/decoration-items/' },
+            { title: 'Swimming Tubes', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726508/Top%20Categories/pvsgm1pq1wjgpznxiw8k.png', link: "https://www.binshafisports.com/product-category/swimming-items/swimming-tubes/" },
+            { title: 'Swimming Pools', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706713058/Top%20Categories/yeoun6wmrsnuimpkhiek.jpg', link: 'https://www.binshafisports.com/product-category/swimming-items/swimming-pools/' },
+            { title: 'Cricket', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711702/Top%20Categories/bkr8km0g8qbylcdwanrs.jpg', link: 'https://www.binshafisports.com/product-category/sports/cricket/' },
+            { title: 'Watches ', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726510/Top%20Categories/udp70raryi1ezu081r3o.png', link: "https://www.binshafisports.com/product-category/watches/" },
+            { title: 'Footballs', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711756/Top%20Categories/wjom7btch7hmkyq3ezsk.jpg', link: "https://www.binshafisports.com/product-category/sports/footballs/" },
+            { title: 'Metal Cars', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711721/Top%20Categories/pjscifs9polexr0mphnp.jpg', link: "https://www.binshafisports.com/product-category/toys/metal-cars/" },
+            { title: 'Gifts For Her', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726531/Top%20Categories/io3syb8zwgnwnlv0nr7q.png', link: 'https://www.binshafisports.com/product-category/gift-items/gifts-for-her/' },
+            { title: 'Ludo', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711733/Top%20Categories/ulrp4yelpum76vit02rv.jpg', link: "https://www.binshafisports.com/product-category/board-games/ludo/" },
+            { title: 'Board Games', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726507/Top%20Categories/slsfgikhlizl1vhhgktk.png', link: 'https://www.binshafisports.com/product-category/board-games/' },
+            { title: 'Gifts For Him', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726528/Top%20Categories/cjl6gofkwmcmi2b09naf.png', link: 'https://www.binshafisports.com/product-category/gift-items/gifts-for-him/' },
+            { title: 'Football kits', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726521/Top%20Categories/umjpvodjomrfkq3sgwnz.png', link: 'https://www.binshafisports.com/product-category/sports-attire/football-attire/' },
+            { title: 'Airpods', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711788/Top%20Categories/cptjxfl4c4w4zb2lafv0.jpg', link: 'https://www.binshafisports.com/product-category/mobile-acessories/air-pods/' },
+            { title: 'Decoration Items', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706711702/Top%20Categories/aap4joglmjyizjzr8pyx.jpg', link: 'https://www.binshafisports.com/product-category/decoration-items/' },
 
           ]
         }
@@ -113,7 +113,7 @@ function App() {
 
           config: {
             images: [
-              { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225206/Sliders/pm5nrxpiuybeterocn3u.png", link: "http://localhost/bshafi/product-category/swimming-items/", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709639/Sliders/zab3x6ikhacoflmcil8z.png" },
+              { picture: "https://res.cloudinary.com/di5dzukri/image/upload/v1707225206/Sliders/pm5nrxpiuybeterocn3u.png", link: "https://www.binshafisports.com/product-category/swimming-items/", mobilepic: "https://res.cloudinary.com/di5dzukri/image/upload/v1706709639/Sliders/zab3x6ikhacoflmcil8z.png" },
 
             ],
             autoPlay: true,
@@ -130,12 +130,12 @@ function App() {
         name: 'section', props: {
           background: 'white',
           title: 'Shop by Price', children: [
-            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/m3ovfeobiycjrsxe0uov.jpg', link: "http://localhost/bshafi/product-category/under-1000/" },
-            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zwmqnwl20tu40gkmqbf1.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-500/" },
-            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zkuooyay64d3lbjq9q3q.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-400/" },
-            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/hvp1siepy3cgzo3pxrgl.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-300/" },
-            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/kz4fdjdqfmbs134fuchl.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-200/" },
-            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/buwvutbknpvggyodywhf.jpg', link: "http://localhost/bshafi/product-category/under-1000/under-100/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/m3ovfeobiycjrsxe0uov.jpg', link: "https://www.binshafisports.com/product-category/under-1000/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zwmqnwl20tu40gkmqbf1.jpg', link: "https://www.binshafisports.com/product-category/under-1000/under-500/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726783/Under%201000/zkuooyay64d3lbjq9q3q.jpg', link: "https://www.binshafisports.com/product-category/under-1000/under-400/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/hvp1siepy3cgzo3pxrgl.jpg', link: "https://www.binshafisports.com/product-category/under-1000/under-300/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/kz4fdjdqfmbs134fuchl.jpg', link: "https://www.binshafisports.com/product-category/under-1000/under-200/" },
+            { title: '', picture: 'https://res.cloudinary.com/di5dzukri/image/upload/v1706726782/Under%201000/buwvutbknpvggyodywhf.jpg', link: "https://www.binshafisports.com/product-category/under-1000/under-100/" },
 
 
           ]
@@ -152,7 +152,7 @@ function App() {
           photos: [
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707152950/Gallery/g42rjzzxqy0io3im7yuu.png",
-              link: "http://localhost/bshafi/product-category/board-games/",
+              link: "https://www.binshafisports.com/product-category/board-games/",
               width: 300,
               height: 150,
 
@@ -162,69 +162,69 @@ function App() {
               width: 100,
               height: 100,
               caption: "286H (gratisography.com)",
-              link: 'http://localhost/bshafi/product-category/watches/'
+              link: 'https://www.binshafisports.com/product-category/watches/'
             },
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707152950/Gallery/ovpjkimkifjvi55bkhjl.png",
               width: 200,
               height: 200,
               caption: "315H (gratisography.com)",
-              link: 'http://localhost/bshafi/product-category/sports/footballs/'
+              link: 'https://www.binshafisports.com/product-category/sports/footballs/'
             },
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707230507/Gallery/ukaywjw74uiedzwo8aya.png",
               width: 120,
               height: 120,
-              link: 'http://localhost/bshafi/product-category/decoration-items/',
+              link: 'https://www.binshafisports.com/product-category/decoration-items/',
               caption: "201H (gratisography.com)",
             },
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707227999/Gallery/lzarmg6jyjmobox5fyl4.png",
               width: 90,
               height: 90,
-              link: 'http://localhost/bshafi/product-category/mobile-acessories/air-pods/',
+              link: 'https://www.binshafisports.com/product-category/mobile-acessories/air-pods/',
               caption: "Big Ben (Tom Eversley - isorepublic.com)",
             },
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707231279/Gallery/soq7uach9c9ykjmiln9g.png",
               width: 150,
               height: 300,
-              link: 'http://localhost/bshafi/product-category/sports/cricket-bats/',
+              link: 'https://www.binshafisports.com/product-category/sports/cricket-bats/',
               caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)",
             },
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707152950/Gallery/rwbux72ktfzhnjkqziuu.png",
               width: 250,
               height: 300,
-              link: 'http://localhost/bshafi/product-category/toys/',
+              link: 'https://www.binshafisports.com/product-category/toys/',
               caption: "Wood Glass (Tom Eversley - isorepublic.com)",
             },
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707156342/Gallery/gmtnynacuetgp8ljdt7e.png",
               width: 150,
-              link: 'http://localhost/bshafi/product-category/toys/metal-cars/',
+              link: 'https://www.binshafisports.com/product-category/toys/metal-cars/',
               height: 150,
               caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
             },
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707229513/Gallery/l9zowyamkeptj04g1ua7.png",
               width: 250,
-              link: 'http://localhost/bshafi/product-category/toys/metal-cars/',
+              link: 'https://www.binshafisports.com/product-category/toys/metal-cars/',
               height: 250,
-              link: 'http://localhost/bshafi/product-category/sports-attire/cricket-attire/',
+              link: 'https://www.binshafisports.com/product-category/sports-attire/cricket-attire/',
               caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
             },
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707228886/Gallery/gi5s0jwioy2y41ejmyq5.png",
               width: 230,
-              link: 'http://localhost/bshafi/product-category/sports-attire/football-attire/',
+              link: 'https://www.binshafisports.com/product-category/sports-attire/football-attire/',
               height: 230,
               caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
             },
             {
               src: "https://res.cloudinary.com/di5dzukri/image/upload/v1707557773/Gallery/k9sifmf1ku7dhauoopkz.png",
               width: 500,
-              link: 'http://localhost/bshafi/product-category/sports/badminton-rackets/',
+              link: 'https://www.binshafisports.com/product-category/sports/badminton-rackets/',
               height: 500,
               caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
             },
@@ -330,11 +330,11 @@ function App() {
           },
           links: [
             { title: 'For Customers', children: [
-              { name: 'About Us', link: 'http://localhost/bshafi/about-us/' }, 
-              { name: 'Terms Of Service', link: 'http://localhost/bshafi/terms-of-service/' },
-              { name: 'Privacy Policy', link: 'http://localhost/bshafi/privacy-policy/' }, 
-              { name: 'Refund & Returns Policy', link: 'http://localhost/bshafi/refund_returns/' },
-              { name: 'FAQ’S', link: 'http://localhost/bshafi/faqs/' },
+              { name: 'About Us', link: 'https://www.binshafisports.com/about-us/' }, 
+              { name: 'Terms Of Service', link: 'https://www.binshafisports.com/terms-of-service/' },
+              { name: 'Privacy Policy', link: 'https://www.binshafisports.com/privacy-policy/' }, 
+              { name: 'Refund & Returns Policy', link: 'https://www.binshafisports.com/refund_returns/' },
+              { name: 'FAQ’S', link: 'https://www.binshafisports.com/faqs/' },
               { name: 'Track Your Order', link: 'abcd' }
 
             ] },
